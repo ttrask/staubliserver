@@ -6,10 +6,12 @@ using System.Net;
 
 namespace TCPServer
 {
-    class Server
+    public class Server
     {
         private TcpListener tcpListener;
         private Thread listenThread;
+
+        private string response = "Nuh Uh.  For real?";
 
         public Server()
         {
@@ -20,6 +22,7 @@ namespace TCPServer
 
         private void ListenForClients()
         {
+
             this.tcpListener.Start();
 
             while (true)
@@ -37,6 +40,10 @@ namespace TCPServer
         private void HandleClientComm(object client)
         {
             TcpClient tcpClient = (TcpClient)client;
+
+
+            Console.WriteLine("Client found at: " + tcpClient.Client.RemoteEndPoint.ToString());
+
             NetworkStream clientStream = tcpClient.GetStream();
 
             byte[] message = new byte[4096];
@@ -65,7 +72,13 @@ namespace TCPServer
 
                 //message has successfully been received
                 ASCIIEncoding encoder = new ASCIIEncoding();
-                System.Diagnostics.Debug.WriteLine(encoder.GetString(message, 0, bytesRead));
+                string recievedMessage = encoder.GetString(message, 0, bytesRead);
+                System.Diagnostics.Debug.WriteLine(recievedMessage);
+                Console.WriteLine("Message Recieved: " + recievedMessage);
+                
+                byte[] data = System.Text.Encoding.ASCII.GetBytes(response);
+                Console.WriteLine("Message Sent: " + response);
+                clientStream.Write(data, 0, data.Length);
             }
 
             tcpClient.Close();

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPClientUI", "TCPClientUI\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPServerUI", "TCPServerUI\TCPServerUI.csproj", "{67ED321A-F036-4258-A7A0-C8B4B8C5B8B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPClient", "TCPClient\TCPClient.csproj", "{69BF4DF5-0574-4817-9C66-860F1826EA01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,16 @@ Global
 		{67ED321A-F036-4258-A7A0-C8B4B8C5B8B1}.Release|Mixed Platforms.Build.0 = Release|x86
 		{67ED321A-F036-4258-A7A0-C8B4B8C5B8B1}.Release|x86.ActiveCfg = Release|x86
 		{67ED321A-F036-4258-A7A0-C8B4B8C5B8B1}.Release|x86.Build.0 = Release|x86
+		{69BF4DF5-0574-4817-9C66-860F1826EA01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69BF4DF5-0574-4817-9C66-860F1826EA01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69BF4DF5-0574-4817-9C66-860F1826EA01}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{69BF4DF5-0574-4817-9C66-860F1826EA01}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{69BF4DF5-0574-4817-9C66-860F1826EA01}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{69BF4DF5-0574-4817-9C66-860F1826EA01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69BF4DF5-0574-4817-9C66-860F1826EA01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69BF4DF5-0574-4817-9C66-860F1826EA01}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{69BF4DF5-0574-4817-9C66-860F1826EA01}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{69BF4DF5-0574-4817-9C66-860F1826EA01}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

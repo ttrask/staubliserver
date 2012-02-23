@@ -4,6 +4,7 @@ using System.Net.Sockets;
 using System.Threading;
 using System.Net;
 using System.Configuration;
+using TCPClient;
 
 namespace MockTCPClient
 {
@@ -13,20 +14,28 @@ namespace MockTCPClient
         {
             TcpClient client = new TcpClient();
 
-            String serverAddress = ConfigurationManager.AppSettings["TCPServerAddress"].ToString();
+            String serverAddress = "127.0.0.1" ;
 
-            IPEndPoint serverEndPoint = new IPEndPoint(IPAddress.Parse(serverAddress.Split(',')[0]), (Int32.Parse(serverAddress.Split(',')[1])));
+            //IPEndPoint serverEndPoint = new IPEndPoint(IPAddress.Parse(serverAddress), 3000);
 
-            client.Connect(serverEndPoint);
+            //client.Connect(serverEndPoint);
 
-            NetworkStream clientStream = client.GetStream();
+            //NetworkStream clientStream = client.GetStream();
 
-            ASCIIEncoding encoder = new ASCIIEncoding();
-            byte[] buffer = encoder.GetBytes("Hello Server!");
+            //ASCIIEncoding encoder = new ASCIIEncoding();
+            //byte[] buffer = encoder.GetBytes("Hello Server!");
 
-            clientStream.Write(buffer, 0, buffer.Length);
-            clientStream.Flush();
-
+            //clientStream.Write(buffer, 0, buffer.Length);
+            //clientStream.Flush();
+            while (true)
+            {
+                Console.WriteLine("Press Enter to send message");
+                Console.ReadLine();
+                new TCPClient.Client().Connect(serverAddress, 3000, "Oh Snap");
+            }
         }
+
+      
+
     }
 }
