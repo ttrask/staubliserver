@@ -31,13 +31,33 @@ namespace TCPClientUI
         public ClientForm()
         {
             InitializeComponent();
-            iniTCP();
         }
 
         public void iniTCP()
         {
             client = new TcpClient();
-            serverEndPoint = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 3000);
+
+            IPAddress ip;
+            int port;
+
+            try
+            {
+                if (!IPAddress.TryParse(txtIP.Text, out ip))
+                {
+                    txtServerMessage.AppendText("Invalid IP Address");
+                    throw new Exception();
+                }
+
+                if (!Int32.TryParse(txtPort.Text, out port))
+                {
+                    txtServerMessage.AppendText("Invalid Port!");
+                    throw new Exception();
+                }
+
+                serverEndPoint = new IPEndPoint(ip, port);
+            }
+            catch{
+            }
         }
 
 
@@ -45,14 +65,22 @@ namespace TCPClientUI
 
         public void connectTCP()
         {
-            client.Connect(serverEndPoint);
-            clientStream = client.GetStream();
-            txtServerMessage.AppendText("Connected to Server: " + client.Client.RemoteEndPoint.ToString());
-            // Create a thread to handle communication 
-            // with connected client
-            Thread clientThread = new Thread(new ParameterizedThreadStart(HandleClientComm));
-            clientThread.Start(client);
-
+            try
+            {
+                client.Connect(serverEndPoint);
+                clientStream = client.GetStream();
+                txtServerMessage.AppendText("Connected to Server: " + client.Client.RemoteEndPoint.ToString());
+                // Create a thread to handle communication 
+                // with connected client
+                Thread clientThread = new Thread(new ParameterizedThreadStart(HandleClientComm));
+                clientThread.Start(client);
+                lblClientIP.Text = client.Client.LocalEndPoint.ToString();
+                lblHostIP.Text = client.Client.RemoteEndPoint.ToString();
+            }
+            catch
+            {
+                client.Close();
+            }
         }
 
         public void sendMsg()
@@ -75,7 +103,6 @@ namespace TCPClientUI
 
         private void buttonSendMessage_Click(object sender, EventArgs e)
         {
-            connectTCP();
             sendMsg();
         }
 
@@ -117,18 +144,18 @@ namespace TCPClientUI
 
                 // Output message
                 //textFromServer = tcpClient.Client.LocalEndPoint + " " + tcpClient.Client.RemoteEndPoint + encoder.GetString(message, 0, bytesRead);
-                textFromServer = String.Format("{0}local Connection: {1}{0}Remote Connection: {2}{0} Server Response:{3}", 
-                                    System.Environment.NewLine, 
-                                    tcpClient.Client.LocalEndPoint, 
-                                    tcpClient.Client.RemoteEndPoint, 
+                textFromServer = String.Format("{0}Server Response:{3}",
+                                    System.Environment.NewLine,
+                                    tcpClient.Client.LocalEndPoint,
+                                    tcpClient.Client.RemoteEndPoint,
                                     encoder.GetString(message, 0, bytesRead));
-                
+
                 this.Invoke((MethodInvoker)delegate
                 {
                     txtServerMessage.AppendText(textFromServer); // runs on UI thread
                 });
 
-            } while (clientStream.DataAvailable);
+            } while (true);//(clientStream.DataAvailable);
 
 
         }
@@ -143,6 +170,22 @@ namespace TCPClientUI
         private void Form1_Load(object sender, EventArgs e)
         {
             
+        }
+
+        private void btnConnect_Click(object sender, EventArgs e)
+        {
+            iniTCP();
+            connectTCP();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
         }
 
 
