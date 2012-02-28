@@ -13,7 +13,7 @@ using System.Net;
 
 namespace TCPServerUI
 {
-    public partial class Form1 : Form
+    public partial class ServerForm : Form
     {
         private static TcpListener tcpListener;
         private static Thread listenThread;
@@ -24,7 +24,7 @@ namespace TCPServerUI
         public delegate void MessageReceivedHandler(string message);
         public event MessageReceivedHandler MessageReceived;
 
-        public Form1()
+        public ServerForm()
         {
             InitializeComponent();
             initiateListen();
@@ -144,6 +144,7 @@ namespace TCPServerUI
             clientStream.Write(buffer, 0, buffer.Length);
             clientStream.Flush();
         }
+
     }
 }
 
