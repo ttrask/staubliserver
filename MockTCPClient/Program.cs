@@ -5,6 +5,7 @@ using System.Threading;
 using System.Net;
 using System.Configuration;
 using TCPClient;
+using Zion.Input;
 
 namespace MockTCPClient
 {
@@ -32,7 +33,11 @@ namespace MockTCPClient
                 Console.WriteLine("Press Enter to send message");
                 Console.ReadLine();
                 new TCPClient.Client().Connect(serverAddress, 3000, "Oh Snap");
+
+
             }
+
+         
         }
 
       
