@@ -61,6 +61,7 @@
     <Compile Include="ClientUI.Designer.cs">
       <DependentUpon>ClientUI.cs</DependentUpon>
     </Compile>
+    <Compile Include="P5Dll.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ClientUI.resx">
@@ -77,6 +78,9 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="app.config" />
+    <None Include="p5dll.ini">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -88,10 +92,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\P5DLL\P5DLL.vcxproj">
-      <Project>{6F8B924E-C9B9-4CBC-B83A-E618872A6192}</Project>
-      <Name>P5DLL</Name>
-    </ProjectReference>
+    <EmbeddedResource Include="P5DLL.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
