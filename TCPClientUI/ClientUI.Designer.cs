@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.txtServerMessage = new System.Windows.Forms.TextBox();
             this.btnSendMessage = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -42,24 +43,30 @@
             this.label6 = new System.Windows.Forms.Label();
             this.lblClientIP = new System.Windows.Forms.Label();
             this.lblHostIP = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.txtP5Connect = new System.Windows.Forms.Label();
+            this.lblX = new System.Windows.Forms.Label();
+            this.lblY = new System.Windows.Forms.Label();
+            this.lblZ = new System.Windows.Forms.Label();
+            this.txtP5Message = new System.Windows.Forms.TextBox();
+            this.p5Timer = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // txtServerMessage
             // 
-            this.txtServerMessage.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtServerMessage.BackColor = System.Drawing.Color.White;
             this.txtServerMessage.Location = new System.Drawing.Point(12, 191);
             this.txtServerMessage.Multiline = true;
             this.txtServerMessage.Name = "txtServerMessage";
             this.txtServerMessage.ReadOnly = true;
-            this.txtServerMessage.Size = new System.Drawing.Size(394, 132);
+            this.txtServerMessage.Size = new System.Drawing.Size(384, 132);
             this.txtServerMessage.TabIndex = 0;
             // 
             // btnSendMessage
             // 
-            this.btnSendMessage.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSendMessage.Location = new System.Drawing.Point(261, 62);
+            this.btnSendMessage.Location = new System.Drawing.Point(248, 62);
             this.btnSendMessage.Name = "btnSendMessage";
             this.btnSendMessage.Size = new System.Drawing.Size(145, 42);
             this.btnSendMessage.TabIndex = 1;
@@ -112,7 +119,7 @@
             this.txtPort.Name = "txtPort";
             this.txtPort.Size = new System.Drawing.Size(162, 20);
             this.txtPort.TabIndex = 9;
-            this.txtPort.Text = "3000";
+            this.txtPort.Text = "1042";
             // 
             // label3
             // 
@@ -138,7 +145,7 @@
             this.txtIP.Name = "txtIP";
             this.txtIP.Size = new System.Drawing.Size(162, 20);
             this.txtIP.TabIndex = 6;
-            this.txtIP.Text = "172.20.45.64";
+            this.txtIP.Text = "172.31.0..17";
             // 
             // label5
             // 
@@ -177,11 +184,98 @@
             this.lblHostIP.TabIndex = 13;
             this.lblHostIP.Text = "<Undefined>";
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(432, 32);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(14, 13);
+            this.label7.TabIndex = 14;
+            this.label7.Text = "X";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(432, 62);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(14, 13);
+            this.label8.TabIndex = 15;
+            this.label8.Text = "Y";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(432, 91);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(14, 13);
+            this.label9.TabIndex = 16;
+            this.label9.Text = "Z";
+            // 
+            // txtP5Connect
+            // 
+            this.txtP5Connect.AutoSize = true;
+            this.txtP5Connect.Location = new System.Drawing.Point(432, 127);
+            this.txtP5Connect.Name = "txtP5Connect";
+            this.txtP5Connect.Size = new System.Drawing.Size(79, 13);
+            this.txtP5Connect.TabIndex = 17;
+            this.txtP5Connect.Text = "Not Connected";
+            // 
+            // lblX
+            // 
+            this.lblX.AutoSize = true;
+            this.lblX.Location = new System.Drawing.Point(473, 33);
+            this.lblX.Name = "lblX";
+            this.lblX.Size = new System.Drawing.Size(14, 13);
+            this.lblX.TabIndex = 18;
+            this.lblX.Text = "X";
+            // 
+            // lblY
+            // 
+            this.lblY.AutoSize = true;
+            this.lblY.Location = new System.Drawing.Point(473, 62);
+            this.lblY.Name = "lblY";
+            this.lblY.Size = new System.Drawing.Size(14, 13);
+            this.lblY.TabIndex = 19;
+            this.lblY.Text = "X";
+            // 
+            // lblZ
+            // 
+            this.lblZ.AutoSize = true;
+            this.lblZ.Location = new System.Drawing.Point(473, 91);
+            this.lblZ.Name = "lblZ";
+            this.lblZ.Size = new System.Drawing.Size(14, 13);
+            this.lblZ.TabIndex = 20;
+            this.lblZ.Text = "X";
+            // 
+            // txtP5Message
+            // 
+            this.txtP5Message.BackColor = System.Drawing.Color.White;
+            this.txtP5Message.Location = new System.Drawing.Point(435, 191);
+            this.txtP5Message.Multiline = true;
+            this.txtP5Message.Name = "txtP5Message";
+            this.txtP5Message.ReadOnly = true;
+            this.txtP5Message.Size = new System.Drawing.Size(318, 132);
+            this.txtP5Message.TabIndex = 21;
+            // 
+            // p5Timer
+            // 
+            this.p5Timer.Enabled = true;
+            this.p5Timer.Interval = 20;
+            this.p5Timer.Tick += new System.EventHandler(this.p5Timer_Tick);
+            // 
             // ClientForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(418, 335);
+            this.ClientSize = new System.Drawing.Size(765, 335);
+            this.Controls.Add(this.txtP5Message);
+            this.Controls.Add(this.lblZ);
+            this.Controls.Add(this.lblY);
+            this.Controls.Add(this.lblX);
+            this.Controls.Add(this.txtP5Connect);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.lblHostIP);
             this.Controls.Add(this.lblClientIP);
             this.Controls.Add(this.label6);
@@ -220,6 +314,15 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label lblClientIP;
         private System.Windows.Forms.Label lblHostIP;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label txtP5Connect;
+        private System.Windows.Forms.Label lblX;
+        private System.Windows.Forms.Label lblY;
+        private System.Windows.Forms.Label lblZ;
+        private System.Windows.Forms.TextBox txtP5Message;
+        private System.Windows.Forms.Timer p5Timer;
 
     }
 }

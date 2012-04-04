@@ -11,6 +11,7 @@ using System.Reflection;
 using System.Net.Sockets;
 using System.Threading;
 using System.Net;
+using Zion.Input;
 
 namespace TCPClientUI
 {
@@ -20,6 +21,8 @@ namespace TCPClientUI
         IPEndPoint serverEndPoint;
         NetworkStream clientStream;
         private static string _textFromServer;
+        private P5Dll p5DLL;
+        private P5Info p5info;
 
         static String textFromServer
         {
@@ -169,7 +172,40 @@ namespace TCPClientUI
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+            try
+            {
+                p5DLL = new P5Dll();
+                p5DLL.SetMouseState(false);
+                p5Timer.Start();
+
+                try
+                {
+                    if (!p5DLL.Connected)
+                        p5DLL.Connect();
+
+                    if (p5DLL.Connected)
+                    {
+                        txtP5Connect.Text = "P5 Connected";
+                        p5info = p5DLL.GetInfo();
+                    }
+                    else
+                    {
+                        txtP5Connect.Text = "P5 Not Connected";
+                    }
+                }
+                catch (EntryPointNotFoundException ex)
+                {
+                    txtP5Message.Text = ex.Message;
+                }
+                catch (TypeLoadException ex)
+                {
+                    txtP5Message.Text = ex.Message;
+                }
+            }
+            catch (Exception ex)
+            {
+                txtP5Message.Text = ex.Message;
+            }
         }
 
         private void btnConnect_Click(object sender, EventArgs e)
@@ -187,6 +223,39 @@ namespace TCPClientUI
         {
 
         }
+
+        private void p5Timer_Tick(object sender, EventArgs e)
+        {
+            
+            try
+            {
+                if(!p5DLL.Connected)
+                    p5DLL.Connect();
+
+                if (p5DLL.Connected)
+                {
+                    txtP5Connect.Text = "P5 Connected";
+                    
+                    P5Data data = p5DLL.GetData();
+                    lblX.Text = String.Format("{0:0.00}", data.X);
+                    lblY.Text = String.Format("{0:0.00}", data.Y);
+                    lblZ.Text = String.Format("{0:0.00}", data.Z);
+                }
+                else
+                {
+                    txtP5Connect.Text = "P5 Not Connected";
+                }
+            }
+            catch (EntryPointNotFoundException ex)
+            {
+                txtP5Message.Text = ex.Message;
+            }
+            catch (TypeLoadException ex)
+            {
+                txtP5Message.Text = ex.Message;
+            }
+        }
+
 
 
      
