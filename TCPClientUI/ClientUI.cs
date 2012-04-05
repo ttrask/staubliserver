@@ -34,6 +34,8 @@ namespace TCPClientUI
         public ClientForm()
         {
             InitializeComponent();
+
+            txtServerIP.Text = Dns.GetHostName();
         }
 
         public void iniTCP()
@@ -214,15 +216,6 @@ namespace TCPClientUI
             connectTCP();
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void p5Timer_Tick(object sender, EventArgs e)
         {
@@ -256,9 +249,159 @@ namespace TCPClientUI
             }
         }
 
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+#region Server code
+         private static TcpListener tcpListener;
+        private static Thread listenThread;
+        static NetworkStream serverStream;
+        static string textFromClient = "";
+        //private string endl = "\r\n";
+
+        public delegate void MessageReceivedHandler(string message);
+        public event MessageReceivedHandler MessageReceived;
 
 
-     
+        private void initiateListen()
+        {
+            tcpListener = new TcpListener(IPAddress.Parse("127.0.0.1"), 3000);
+            listenThread = new Thread(new ThreadStart(ListenForClients));
+
+            txtServerMessage.Text += "\nServer listening at: " + Dns.GetHostName();
+
+            listenThread.Start();
+        }
+
+
+        /// <summary>
+        /// Listens for client connections
+        /// </summary>
+        private static void ListenForClients()
+        {
+            tcpListener.Start();
+
+            while (true)
+            {
+                try
+                {
+                    // Blocks until a client has connected to the server
+                    TcpClient client = tcpListener.AcceptTcpClient();
+
+                    // Create a thread to handle communication 
+                    // with connected client
+                    Thread clientThread = new Thread(new ParameterizedThreadStart(HandleServerComm));
+                    clientThread.Start(client);
+                }
+                catch (Exception)
+                {
+
+                }
+            }
+        }
+
+
+
+       
+
+        /// <summary>
+        /// Handles client connections
+        /// </summary>
+        /// <param name="client"></param>
+        private static void HandleServerComm(object client)
+        {
+            TcpClient tcpClient = (TcpClient)client;
+            //NetworkStream serverStream = tcpClient.GetStream();
+            serverStream = tcpClient.GetStream();
+
+            byte[] message = new byte[4096];
+            int bytesRead;
+
+            do
+            {
+                bytesRead = 0;
+
+                try
+                {
+                    // Blocks until a client sends a message                    
+                    bytesRead = serverStream.Read(message, 0, 4096);
+                }
+                catch (Exception)
+                {
+                    // A socket error has occured
+                    break;
+                }
+
+                if (bytesRead == 0)
+                {
+                    // The client has disconnected from the server
+                    break;
+                }
+
+                // Message has successfully been received
+                ASCIIEncoding encoder = new ASCIIEncoding();
+
+                // Output message
+                textFromClient = tcpClient.Client.LocalEndPoint + " " + tcpClient.Client.RemoteEndPoint + encoder.GetString(message, 0, bytesRead);
+
+                //Console.WriteLine("To: " + tcpClient.Client.LocalEndPoint);
+                //Console.WriteLine("From: " + tcpClient.Client.RemoteEndPoint);
+                //Console.WriteLine(encoder.GetString(message, 0, bytesRead));
+
+            } while (serverStream.DataAvailable);
+
+            // Release connections
+            // serverStream.Close();
+
+            //tcpClient.Close();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            txtServerMessage.Text = textFromClient;
+        }
+
+        private void buttonClear_Click(object sender, EventArgs e)
+        {
+            textFromClient = "";
+            txtServerMessage.Clear();
+        }
+
+        private void buttonSendToClient_Click(object sender, EventArgs e)
+        {
+
+            ASCIIEncoding encoder = new ASCIIEncoding();
+            byte[] buffer = encoder.GetBytes("Hello Server!");
+
+            serverStream.Write(buffer, 0, buffer.Length);
+            serverStream.Flush();
+        }
+
+        private void txtServerMessage_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnStartServer_Click(object sender, EventArgs e)
+        {
+            initiateListen();
+        }
+
 
     }
-}
+
+#endregion
+
+    }
