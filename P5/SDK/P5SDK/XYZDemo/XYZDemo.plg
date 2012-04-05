@@ -1,0 +1,74 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: XYZDemo - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Autukuri\LOCALS~1\Temp\RSP3BF.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/XYZDemo.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\SDK 2_0\XYZDemo\XYZDemo.cpp"
+"D:\SDK 2_0\XYZDemo\XYZDemoDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Autukuri\LOCALS~1\Temp\RSP3BF.tmp" 
+Creating temporary file "C:\DOCUME~1\Autukuri\LOCALS~1\Temp\RSP3C0.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/XYZDemo.pdb" /machine:I386 /out:"..\Run\XYZDemo.exe" 
+".\Release\P5Motion.obj"
+".\Release\StdAfx.obj"
+".\Release\XYZDemo.obj"
+".\Release\XYZDemoDlg.obj"
+".\Release\XYZDemo.res"
+"..\P5API\P5DLL.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\Autukuri\LOCALS~1\Temp\RSP3C0.tmp"
+<h3>Output Window</h3>
+Compiling...
+XYZDemo.cpp
+XYZDemoDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+XYZDemo.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: XYZDemo - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Autukuri\LOCALS~1\Temp\RSP3C2.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/XYZDemo.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\SDK 2_0\XYZDemo\XYZDemo.cpp"
+"D:\SDK 2_0\XYZDemo\XYZDemoDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Autukuri\LOCALS~1\Temp\RSP3C2.tmp" 
+Creating temporary file "C:\DOCUME~1\Autukuri\LOCALS~1\Temp\RSP3C3.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/XYZDemoD.pdb" /debug /machine:I386 /out:"../Run/XYZDemoD.exe" /pdbtype:sept 
+".\Debug\P5Motion.obj"
+".\Debug\StdAfx.obj"
+".\Debug\XYZDemo.obj"
+".\Debug\XYZDemoDlg.obj"
+".\Debug\XYZDemo.res"
+"..\P5API\P5DLL.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\Autukuri\LOCALS~1\Temp\RSP3C3.tmp"
+<h3>Output Window</h3>
+Compiling...
+XYZDemoDlg.cpp
+Generating Code...
+Skipping... (no relevant changes detected)
+XYZDemo.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+XYZDemoD.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

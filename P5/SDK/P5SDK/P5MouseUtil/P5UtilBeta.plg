@@ -1,0 +1,61 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: P5UtilBeta - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Autukuri\LOCALS~1\Temp\RSP39D.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/P5MouseUtil.pdb" /machine:I386 /out:"../Run/P5MouseUtil.exe" 
+".\Release\BendsPage.obj"
+".\Release\ButtonsPage.obj"
+".\Release\LedButton.obj"
+".\Release\MouseExPage.obj"
+".\Release\MousePage.obj"
+".\Release\P5UtilBeta.obj"
+".\Release\P5UtilBetaDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\XyzPage.obj"
+".\Release\P5UtilBeta.res"
+"..\P5API\P5DLL.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\Autukuri\LOCALS~1\Temp\RSP39D.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+P5MouseUtil.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: P5UtilBeta - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Autukuri\LOCALS~1\Temp\RSP39F.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/P5MouseUtil_D.pdb" /debug /machine:I386 /out:"../Run/P5MouseUtil_D.exe" /pdbtype:sept 
+".\Debug\BendsPage.obj"
+".\Debug\ButtonsPage.obj"
+".\Debug\LedButton.obj"
+".\Debug\MouseExPage.obj"
+".\Debug\MousePage.obj"
+".\Debug\P5UtilBeta.obj"
+".\Debug\P5UtilBetaDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\XyzPage.obj"
+".\Debug\P5UtilBeta.res"
+"..\P5API\P5DLL.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\Autukuri\LOCALS~1\Temp\RSP39F.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+P5MouseUtil_D.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

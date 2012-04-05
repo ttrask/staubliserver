@@ -80,7 +80,7 @@ namespace TCPClientUI
                 Thread clientThread = new Thread(new ParameterizedThreadStart(HandleClientComm));
                 clientThread.Start(client);
                 lblClientIP.Text = client.Client.LocalEndPoint.ToString();
-                lblHostIP.Text = client.Client.RemoteEndPoint.ToString();
+                //lblHostIP.Text = client.Client.RemoteEndPoint.ToString();
             }
             catch
             {

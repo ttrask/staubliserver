@@ -1,0 +1,205 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "DirectX.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAIN_ACCEL ACCELERATORS DISCARDABLE 
+BEGIN
+    VK_F2,          IDM_CHANGEDEVICE,       VIRTKEY, NOINVERT
+    VK_RETURN,      IDC_VIEWFULLSCREEN,     VIRTKEY, ALT, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_FORMVIEW DIALOGEX 0, 0, 538, 230
+STYLE WS_CHILD
+FONT 8, "MS Shell Dlg"
+BEGIN
+    CONTROL         "",IDC_RENDERVIEW,"Static",SS_BLACKFRAME,5,5,271,199,
+                    WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE
+    LTEXT           "Absolute mode will work with actual yaw, pitch, and roll values.\n\nRate Control will define a threshold value which will increase or decrease yaw, pitch, or roll values.",
+                    IDC_STATIC,401,96,128,51
+    RTEXT           ".",IDC_TXT_MSG,357,216,172,8
+    PUSHBUTTON      "Change &Device...",IDC_CHANGEDEVICE,7,209,76,15,NOT 
+                    WS_TABSTOP
+    PUSHBUTTON      "View Full&screen",IDC_VIEWFULLSCREEN,87,209,76,15,NOT 
+                    WS_TABSTOP
+    CONTROL         "Slider1",IDC_SLD_YAW,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS,285,26,60,53
+    LTEXT           "Yaw",IDC_STATIC,307,7,15,8
+    LTEXT           "Pitch",IDC_STATIC,402,7,17,8
+    LTEXT           "Roll",IDC_STATIC,495,7,13,8
+    CONTROL         "Slider1",IDC_SLD_PITCH,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS,377,26,60,53
+    CONTROL         "Slider1",IDC_SLD_ROLL,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS,469,26,60,53
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME | SS_SUNKEN,285,151,
+                    243,1
+    GROUPBOX        "YPR Mode",IDC_FRM_MODE,292,93,88,51
+    CONTROL         "&Absolute",IDC_MODE_ABS,"Button",BS_AUTORADIOBUTTON,308,
+                    109,43,10
+    CONTROL         "&Rate Control",IDC_MODE_RC,"Button",BS_AUTORADIOBUTTON,
+                    308,122,55,10
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME | SS_SUNKEN,286,89,
+                    243,1
+    GROUPBOX        "YPR Option",IDC_STATIC,292,159,88,51
+    CONTROL         "Enable &Yaw",IDC_CHECK_ENABLE_YAW,"Button",
+                    BS_AUTOCHECKBOX | BS_NOTIFY | WS_GROUP | WS_TABSTOP,308,
+                    170,54,10
+    CONTROL         "Enable &Pitch",IDC_CHECK_ENABLE_PITCH,"Button",
+                    BS_AUTOCHECKBOX | BS_NOTIFY | WS_GROUP | WS_TABSTOP,308,
+                    182,56,10
+    CONTROL         "Enable R&oll",IDC_CHECK_ENABLE_ROLL,"Button",
+                    BS_AUTOCHECKBOX | BS_NOTIFY | WS_GROUP | WS_TABSTOP,308,
+                    194,52,10
+    LTEXT           "This option will Enable/Disable Yaw, Pitch, Roll separately.\n\nCheck the desired option.",
+                    IDC_STATIC,401,163,118,44
+END
+
+IDD_SELECTDEVICE DIALOG DISCARDABLE  0, 0, 267, 138
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Select Device"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    GROUPBOX        "Rendering device",IDC_STATIC,5,5,200,45
+    LTEXT           "&Adapter:",IDC_STATIC,22,17,65,10,SS_CENTERIMAGE
+    COMBOBOX        IDC_ADAPTER_COMBO,90,15,105,100,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "&Device:",IDC_STATIC,22,32,65,10,SS_CENTERIMAGE
+    COMBOBOX        IDC_DEVICE_COMBO,90,30,105,100,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Rendering mode",IDC_STATIC,5,52,200,45
+    CONTROL         "Use desktop &window",IDC_WINDOW,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,10,62,85,15
+    CONTROL         "&Fullscreen mode:",IDC_FULLSCREEN,"Button",
+                    BS_AUTORADIOBUTTON,10,77,75,15
+    COMBOBOX        IDC_FULLSCREENMODES_COMBO,90,77,105,204,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    GROUPBOX        "Multisample",IDC_STATIC,5,101,200,28
+    LTEXT           "&Multisample Type:",IDC_STATIC,22,113,62,10,
+                    SS_CENTERIMAGE
+    COMBOBOX        IDC_MULTISAMPLE_COMBO,90,111,105,100,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,210,10,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,210,30,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_FORMVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 529
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 224
+    END
+
+    IDD_SELECTDEVICE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 259
+        TOPMARGIN, 7
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "Config &display...\tF2",      IDM_CHANGEDEVICE
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

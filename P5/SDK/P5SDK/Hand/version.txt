@@ -1,0 +1,14 @@
+Sep\4\01
+-Made demo work with newest version of API
+
+Dec\18\2001
+-Finalized for the show. Was done with mouse-firmware
+ enabled. Set yaw,pitch,roll = 0
+
+ Jan\3\2002
+ -	finalized for CES in LA.
+ -	stats are toggable now.
+ -	starts with full screen.
+
+May/10/2002
+-	small bugfixes added..

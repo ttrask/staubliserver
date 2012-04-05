@@ -1,0 +1,53 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: cage2 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\arego\LOCALS~1\Temp\RSP46.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/cage2.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Work\airlock\CageApp.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\arego\LOCALS~1\Temp\RSP46.tmp" 
+Creating temporary file "D:\DOCUME~1\arego\LOCALS~1\Temp\RSP47.tmp" with contents
+[
+MSDETSTF.LIB dinput8.lib dxguid.lib d3dx8dt.lib d3d8.lib winmm.lib d3dxof.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib p5dll.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/cage2.pdb" /machine:I386 /out:"cage2.exe" 
+.\Release\Cage.obj
+.\Release\CageApp.obj
+.\Release\CageObject.obj
+.\Release\Credits.obj
+.\Release\d3dapp.obj
+.\Release\d3dfile.obj
+.\Release\d3dfont.obj
+.\Release\D3DInputWrapper.obj
+.\Release\d3dutil.obj
+.\Release\Donut.obj
+.\Release\dxutil.obj
+.\Release\Explosion.obj
+.\Release\P5Bend.obj
+.\Release\P5Motion.obj
+.\Release\ScoringStar.obj
+.\Release\Shadow.obj
+.\Release\Star.obj
+.\Release\Starfield.obj
+.\Release\cage.res
+.\P5DLL.lib
+]
+Creating command line "link.exe @D:\DOCUME~1\arego\LOCALS~1\Temp\RSP47.tmp"
+<h3>Output Window</h3>
+Compiling...
+CageApp.cpp
+C:\DXSDK\INCLUDE\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+Linking...
+LINK : warning LNK4089: all references to "d3dxof.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+cage2.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

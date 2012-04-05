@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<programList xmlns="ProgramNameSpace" >
+  <program name="sendTest" public="false" >
+    <description />
+    <paramSection/>
+    <localSection/>
+    <source>
+      <code>begin
+  do
+    delay(2)
+    io:client="abcd"
+  until false
+end
+
+      </code>
+    </source>
+  </program>
+</programList>
