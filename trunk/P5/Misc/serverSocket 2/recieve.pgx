@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<programList xmlns="ProgramNameSpace" >
+  <program name="recieve" public="true" >
+    <description />
+    <paramSection>
+      <param name="s" type="string" byVal="false" />
+      <param name="cEOS" type="num" byVal="true" />
+      <param name="b" type="bool" byVal="false" />
+    </paramSection>
+    <localSection>
+      <local name="c" type="num" size="1" />
+      <local name="n" type="num" size="1" />
+    </localSection>
+    <source>
+      <code>begin
+  s=""
+  n=0
+  c=0
+  do
+    n=sioGet(sioServer,c)
+    if n&gt;0
+      if c&lt;32 or c == 34 or c&gt;126
+        s=s+"["+toString("",c)+"]"
+      else
+        s=s+chr(c)
+      endIf
+    endIf
+  until c==cEOS or n&lt;1
+  if c==cEOS
+    b=true
+  else
+    b=false
+  endIf
+end
+
+      </code>
+    </source>
+  </program>
+</programList>

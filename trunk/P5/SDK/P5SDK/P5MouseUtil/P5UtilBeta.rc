@@ -1,0 +1,371 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\P5UtilBeta.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\P5UtilBeta.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About P5 Utililty"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "P5UtilBeta Version 1.0",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) Essential Reality 2002",IDC_STATIC,40,25,
+                    119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_DLG_BENDS DIALOG DISCARDABLE  0, 0, 300, 185
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Bend Sensors"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Progress1",IDC_THUMB,"msctls_progress32",PBS_VERTICAL | 
+                    PBS_SMOOTH,31,56,13,73
+    CONTROL         "Progress1",IDC_INDEX,"msctls_progress32",PBS_VERTICAL | 
+                    PBS_SMOOTH,54,37,13,92
+    CONTROL         "Progress1",IDC_MIDDLE,"msctls_progress32",PBS_VERTICAL | 
+                    PBS_SMOOTH,77,30,13,99
+    CONTROL         "Progress1",IDC_RING,"msctls_progress32",PBS_VERTICAL | 
+                    PBS_SMOOTH,100,38,13,91
+    CONTROL         "Progress1",IDC_PINKY,"msctls_progress32",PBS_VERTICAL | 
+                    PBS_SMOOTH,123,51,13,78
+    GROUPBOX        "Bending Data",IDC_STATIC,14,14,140,125
+    LTEXT           "To calibrate fingers please use the following steps:\n\n1. Hit 'A' button on the Glove to  reset the device settings.",
+                    IDC_STATIC,164,17,119,43
+    LTEXT           "3. Unbend fingers straightening out your fingers.",
+                    IDC_STATIC,164,86,124,18
+    LTEXT           "2. Make a fist, bending all fingers to a comfortable level.",
+                    IDC_STATIC,164,64,119,18
+    LTEXT           "",IDC_TXT_BENDS_MSG,163,156,124,18
+    LTEXT           "Status:",IDC_TXT_STATUS,15,144,266,8
+    LTEXT           "4. Hit 'A' button again to save.",IDC_STATIC,164,108,
+                    124,18
+END
+
+IDD_DLG_MOUSE DIALOGEX 0, 0, 300, 201
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "P5 Mouse Clicks"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Slider1",IDC_SLD_STICKY,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,15,20,77,15
+    COMBOBOX        IDC_COMBO_LCLICK,17,70,87,50,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "Slider1",IDC_SLD_L_SENS,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,113,67,109,15
+    COMBOBOX        IDC_COMBO_MCLICK,17,101,87,50,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "Slider1",IDC_SLD_M_SENS,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,113,99,109,15
+    COMBOBOX        IDC_COMBO_RCLICK,17,133,87,50,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "Slider1",IDC_SLD_R_SENS,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,113,131,109,15
+    PUSHBUTTON      "Apply",IDC_BUT_SAVE_MAP,36,163,50,14
+    GROUPBOX        "Mouse Sensitivity",IDC_STATIC,7,49,286,145,BS_CENTER
+    LTEXT           "Left Click",IDC_STATIC,17,57,30,8,SS_NOTIFY
+    LTEXT           "Right Click",IDC_STATIC,17,121,35,8
+    LTEXT           "0",IDC_TXT_LAREA,235,71,45,8,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    LTEXT           "0",IDC_TXT_RAREA,235,134,45,8,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    LTEXT           "Middle Click",IDC_STATIC,17,88,39,8
+    LTEXT           "0",IDC_TXT_MAREA,235,104,45,8,SS_NOTIFY,
+                    WS_EX_ACCEPTFILES
+    GROUPBOX        "Sticky Time",IDC_STATIC,15,6,124,40
+    LTEXT           "The higher the number, the longer the cursor will stay still for double clicks. Start in the middle and adjust according to your level of comfort.",
+                    IDC_STATIC,148,10,135,35,SS_NOTIFY,WS_EX_ACCEPTFILES
+    LTEXT           "0",IDC_TXT_STICKY_TIME,104,23,8,8,SS_NOTIFY
+    CONTROL         139,IDC_CLICK,"Static",SS_BITMAP | SS_NOTIFY,252,157,33,
+                    31
+    GROUPBOX        "Click here to test",IDC_STATIC,113,151,121,43,BS_CENTER | 
+                    BS_NOTIFY,WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE
+END
+
+IDD_DLG_MOUSE_EX DIALOG DISCARDABLE  0, 0, 300, 201
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "P5 Mouse General"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Desktop Mouse",IDC_STATIC,18,15,96,53
+    CONTROL         "Mouse ON",IDC_RADIO_MOUSE_ON,"Button",
+                    BS_AUTORADIOBUTTON,39,30,50,10
+    CONTROL         "Mouse OFF",IDC_RADIO_MOUSE_OFF,"Button",
+                    BS_AUTORADIOBUTTON,39,46,53,10
+    LTEXT           "This will set the P5 Mouse Mode On or OFF.\n\nHit 'B' button to toggle P5 Mouse Mode ON / OFF",
+                    IDC_STATIC,135,18,124,45
+    LTEXT           "Status:",IDC_TXT_MOUSE_MODE,18,74,258,8
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME | SS_SUNKEN,19,98,
+                    260,1
+END
+
+IDD_DLG_XYZ DIALOG DISCARDABLE  0, 0, 300, 201
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "XYZ Tracking"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Slider1",IDC_SLD_X,"msctls_trackbar32",TBS_NOTICKS | 
+                    WS_TABSTOP,56,17,229,15
+    CONTROL         "Slider1",IDC_SLD_Z,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,55,160,229,15
+    CONTROL         "Slider2",IDC_SLD_Y,"msctls_trackbar32",TBS_VERT | 
+                    TBS_NOTICKS | WS_TABSTOP,21,18,18,154
+    LTEXT           "X:",IDC_TXT_X,127,38,106,8
+    LTEXT           "Z:",IDC_TXT_Z,124,143,106,8
+    LTEXT           "Y:",IDC_TXT_Y,44,92,65,8
+    LTEXT           "This will show the native XYZ tracking mode for P5 Device.\n\nTo reset position data, press Reset button.",
+                    IDC_STATIC,142,58,128,41
+    PUSHBUTTON      "&Reset",IDC_RESET_POS_DATA,175,116,50,14
+END
+
+IDD_DLG_BUTTONS DIALOG DISCARDABLE  0, 0, 300, 201
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Buttons"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "A",IDC_BUT_A,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,34,
+                    80,21,10
+    CONTROL         "B",IDC_BUT_B,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,66,
+                    96,21,10
+    CONTROL         "C",IDC_BUT_C,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,72,
+                    128,21,10
+    CONTROL         "D",IDC_BUT_D,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,51,
+                    152,21,10
+    LTEXT           "There are four buttons on the top of your P5 Glove Device which you can track using this page.",
+                    IDC_STATIC,24,19,141,27
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME | SS_SUNKEN,23,57,
+                    255,1
+    LTEXT           "- P5 Power ON / OFF",IDC_STATIC,96,152,75,10
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Done for the first 150\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "P5UtilBeta MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "P5UtilBeta\0"
+            VALUE "LegalCopyright", "Copyright (C) Essential Reality 2002\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "P5UtilBeta.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "P5UtilBeta Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_DLG_BENDS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 293
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 178
+    END
+
+    IDD_DLG_MOUSE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 293
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 194
+    END
+
+    IDD_DLG_MOUSE_EX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 293
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 194
+    END
+
+    IDD_DLG_XYZ, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 293
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 194
+    END
+
+    IDD_DLG_BUTTONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 293
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 194
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_LED_RED             BITMAP  DISCARDABLE     "res\\led_red.bmp"
+IDB_DCLICK1             BITMAP  DISCARDABLE     "res\\dclick1.bmp"
+IDB_DCLICK2             BITMAP  DISCARDABLE     "res\\dclick2.bmp"
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\testarea1.bmp"
+IDB_SCLICK_LEFT1        BITMAP  DISCARDABLE     "res\\sclickLeft1.bmp"
+IDB_SCLICK_LEFT2        BITMAP  DISCARDABLE     "res\\sclickLeft2.bmp"
+IDB_SCLICK_RIGHT1       BITMAP  DISCARDABLE     "res\\sclickRight1.bmp"
+IDB_SCLICK_RIGHT2       BITMAP  DISCARDABLE     "res\\sclickRight2.bmp"
+IDB_SCLICK_MID1         BITMAP  DISCARDABLE     "res\\sclickMid1.bmp"
+IDB_SCLICK_MID2         BITMAP  DISCARDABLE     "res\\sclickMid2.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About P5UtilBeta..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\P5UtilBeta.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

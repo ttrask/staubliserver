@@ -1,0 +1,507 @@
+***  Installation Started 03/08/2012 20:03  ***
+Title: P5 SDK 2.0 Installation
+Source: C:\Projects\P5\SDK\setup.EXE | 10-21-2002 | 13:59:34 | 42743850
+Made Dir: C:\P5SDK
+File Copy: C:\P5SDK\UNWISE.EXE | 09-28-2001 | 17:00:28 | | 164864 | acd7a536
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\P5 SDK 2.0
+RegDB Val: P5 SDK 2.0
+RegDB Name: DisplayName
+RegDB Root: 2
+RegDB Old: P5 SDK 2.0
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\P5 SDK 2.0
+RegDB Val: C:\P5SDK\UNWISE.EXE C:\P5SDK\INSTALL.LOG
+RegDB Name: UninstallString
+RegDB Root: 2
+RegDB Old: C:\P5SDK\UNWISE.EXE C:\P5SDK\INSTALL.LOG
+Made Dir: C:\P5SDK\airlock
+File Copy: C:\P5SDK\airlock\Cage.cpp | 05-13-2002 | 22:46:50 | | 9932 | a274da38
+File Copy: C:\P5SDK\airlock\Cage.h | 03-15-2002 | 18:35:46 | | 2194 | 910c6ee9
+File Copy: C:\P5SDK\airlock\Cage.h.bak | 03-15-2002 | 18:15:58 | | 2149 | 4e2ada7a
+File Copy: C:\P5SDK\airlock\cage.rc | 02-17-2002 | 15:49:56 | | 3221 | 3a17a972
+File Copy: C:\P5SDK\airlock\cage2.dsp | 05-13-2002 | 17:03:32 | | 6575 | bba04a4e
+File Copy: C:\P5SDK\airlock\cage2.dsw | 05-13-2002 | 17:03:32 | | 533 | fc254827
+File Copy: C:\P5SDK\airlock\cage2.ncb | 05-21-2002 | 13:02:46 | | 279552 | 9b372f4f
+File Copy: C:\P5SDK\airlock\cage2.opt | 05-21-2002 | 13:02:44 | | 56832 | d3dd308d
+File Copy: C:\P5SDK\airlock\cage2.plg | 05-21-2002 | 12:57:08 | | 1758 | 9fec7606
+File Copy: C:\P5SDK\airlock\cage2_D.ilk | 05-13-2002 | 22:50:50 | | 1496456 | eebf37bd
+File Copy: C:\P5SDK\airlock\CageApp.cpp | 05-21-2002 | 12:57:04 | | 28804 | ab551c28
+File Copy: C:\P5SDK\airlock\CageApp.h | 03-15-2002 | 18:27:46 | | 7428 | 9408fa18
+File Copy: C:\P5SDK\airlock\CageObject.cpp | 05-13-2002 | 16:08:22 | | 3369 | b125f475
+File Copy: C:\P5SDK\airlock\CageObject.h | 03-15-2002 | 18:28:06 | | 2302 | 55c78e31
+File Copy: C:\P5SDK\airlock\Credits.cpp | 03-15-2002 | 18:33:00 | | 2039 | 24cb2552
+File Copy: C:\P5SDK\airlock\Credits.h | 03-15-2002 | 18:28:12 | | 1288 | a4d407ad
+File Copy: C:\P5SDK\airlock\d3dapp.cpp | 03-15-2002 | 18:30:42 | | 68480 | 832b911d
+File Copy: C:\P5SDK\airlock\d3dapp.h | 03-15-2002 | 18:28:20 | | 8848 | dc92b2af
+File Copy: C:\P5SDK\airlock\d3dfile.cpp | 05-13-2002 | 16:08:20 | | 20726 | ca3bcd52
+File Copy: C:\P5SDK\airlock\d3dfile.h | 03-15-2002 | 18:28:26 | | 3865 | 8d260265
+File Copy: C:\P5SDK\airlock\d3dfont.cpp | 03-15-2002 | 18:31:20 | | 23119 | 60820a2a
+File Copy: C:\P5SDK\airlock\d3dfont.h | 03-15-2002 | 18:28:34 | | 2451 | 7c0483bf
+File Copy: C:\P5SDK\airlock\D3DInputWrapper.cpp | 03-15-2002 | 18:33:08 | | 6057 | 91c441d4
+File Copy: C:\P5SDK\airlock\D3DInputWrapper.h | 03-15-2002 | 18:28:40 | | 1126 | d9fc1a6b
+File Copy: C:\P5SDK\airlock\d3dres.h | 03-15-2002 | 18:28:48 | | 1664 | cf0661c
+File Copy: C:\P5SDK\airlock\d3dutil.cpp | 03-15-2002 | 18:31:02 | | 20902 | 1bca3e3a
+File Copy: C:\P5SDK\airlock\d3dutil.h | 03-15-2002 | 18:29:00 | | 10171 | 4ba2816a
+File Copy: C:\P5SDK\airlock\Donut.cpp | 03-15-2002 | 18:33:16 | | 981 | 43fca296
+File Copy: C:\P5SDK\airlock\Donut.h | 03-15-2002 | 18:29:06 | | 855 | 2fdbf4d3
+File Copy: C:\P5SDK\airlock\dxutil.cpp | 03-15-2002 | 18:33:22 | | 19959 | eb2a2d6f
+File Copy: C:\P5SDK\airlock\dxutil.h | 03-15-2002 | 18:29:12 | | 4802 | ce31b41d
+File Copy: C:\P5SDK\airlock\Explosion.cpp | 03-15-2002 | 18:33:30 | | 2500 | a0612825
+File Copy: C:\P5SDK\airlock\Explosion.h | 03-15-2002 | 18:29:16 | | 1134 | bae73ba4
+File Copy: C:\P5SDK\airlock\P5Bend.cpp | 05-13-2002 | 17:02:30 | | 3426 | 249e514d
+File Copy: C:\P5SDK\airlock\P5Bend.h | 05-13-2002 | 14:01:20 | | 295 | 58f8fd67
+File Copy: C:\P5SDK\airlock\P5Motion.cpp | 05-14-2002 | 16:20:46 | | 12379 | 3385e052
+File Copy: C:\P5SDK\airlock\P5Motion.h | 05-08-2002 | 22:13:48 | | 682 | f0f138f4
+File Copy: C:\P5SDK\airlock\readme.txt | 03-12-2002 | 23:17:34 | | 2631 | ed2ec4e2
+File Copy: C:\P5SDK\airlock\resource.h | 03-15-2002 | 18:29:30 | | 773 | a836fc9a
+File Copy: C:\P5SDK\airlock\ScoringStar.cpp | 03-15-2002 | 18:33:36 | | 3591 | b74e2ea7
+File Copy: C:\P5SDK\airlock\ScoringStar.h | 03-15-2002 | 18:29:42 | | 1037 | faab0c6e
+File Copy: C:\P5SDK\airlock\Shadow.cpp | 03-15-2002 | 18:33:44 | | 2348 | 73cc05c0
+File Copy: C:\P5SDK\airlock\Shadow.h | 03-15-2002 | 18:29:52 | | 941 | fdcbdcfa
+File Copy: C:\P5SDK\airlock\Star.cpp | 03-15-2002 | 18:33:52 | | 6398 | 71c765c7
+File Copy: C:\P5SDK\airlock\Star.h | 03-15-2002 | 18:30:00 | | 1921 | 83b1272c
+File Copy: C:\P5SDK\airlock\Starfield.cpp | 03-15-2002 | 18:37:10 | | 1088 | 8c6c5ba
+File Copy: C:\P5SDK\airlock\Starfield.h | 03-15-2002 | 18:30:06 | | 1003 | 9b9acf33
+File Copy: C:\P5SDK\airlock\StdAfx.cpp | 05-09-2002 | 09:50:20 | | 209 | 2826a7b2
+File Copy: C:\P5SDK\airlock\StdAfx.h | 05-09-2002 | 09:50:20 | | 1054 | f1598a06
+Made Dir: C:\P5SDK\Docs
+File Copy: C:\P5SDK\Docs\P5_SDK_2_0.chm | 05-28-2002 | 21:50:26 | | 81798 | ec5ae531
+Made Dir: C:\P5SDK\Hand
+File Copy: C:\P5SDK\Hand\Hand.dsp | 05-14-2002 | 10:49:44 | | 6294 | ea186b23
+File Copy: C:\P5SDK\Hand\Hand.dsw | 05-13-2002 | 11:49:46 | | 609 | 5103be4a
+File Copy: C:\P5SDK\Hand\Hand.ilk | 05-13-2002 | 11:27:34 | | 1075016 | 776f0dfc
+File Copy: C:\P5SDK\Hand\Hand.ncb | 05-14-2002 | 15:30:30 | | 427008 | 304067b5
+File Copy: C:\P5SDK\Hand\Hand.opt | 05-14-2002 | 15:30:30 | | 60928 | 57958103
+File Copy: C:\P5SDK\Hand\Hand.plg | 05-14-2002 | 15:20:08 | | 244 | 9bdf7e63
+Made Dir: C:\P5SDK\Hand\Source
+File Copy: C:\P5SDK\Hand\Source\Bitmap1.bmp | 04-15-2001 | 08:24:24 | | 1270 | 8e815ca3
+File Copy: C:\P5SDK\Hand\Source\C3DCamera.cpp | 03-04-2001 | 19:10:00 | | 2240 | 66151d68
+File Copy: C:\P5SDK\Hand\Source\C3DCamera.h | 11-28-2000 | 07:23:00 | | 1676 | c44c072e
+File Copy: C:\P5SDK\Hand\Source\C3DEngine.cpp | 05-14-2002 | 10:46:18 | | 87901 | 81e02fd7
+File Copy: C:\P5SDK\Hand\Source\C3DEngine.h | 03-10-2001 | 20:40:00 | | 10301 | d2eaddf
+File Copy: C:\P5SDK\Hand\Source\C3DFont.cpp | 01-03-2002 | 17:03:22 | | 23106 | 581a558
+File Copy: C:\P5SDK\Hand\Source\C3DFont.h | 11-28-2000 | 00:59:00 | | 2376 | 861db34f
+File Copy: C:\P5SDK\Hand\Source\C3DFrameObject.cpp | 03-18-2001 | 22:44:00 | | 68401 | 4ee8cb4b
+File Copy: C:\P5SDK\Hand\Source\C3DFrameObject.h | 05-13-2002 | 11:10:36 | | 12448 | 3c92d4f4
+File Copy: C:\P5SDK\Hand\Source\C3DMesh.cpp | 01-03-2001 | 20:13:00 | | 7487 | de8b16f1
+File Copy: C:\P5SDK\Hand\Source\C3DMesh.h | 01-03-2001 | 20:18:00 | | 996 | b068620d
+File Copy: C:\P5SDK\Hand\Source\C3DObject.cpp | 01-04-2001 | 07:47:00 | | 16539 | 92513bab
+File Copy: C:\P5SDK\Hand\Source\C3DObject.h | 03-04-2001 | 18:41:00 | | 1870 | 2c2ef4eb
+File Copy: C:\P5SDK\Hand\Source\C3DText.cpp | 03-08-2001 | 02:49:00 | | 2049 | 4813e7f5
+File Copy: C:\P5SDK\Hand\Source\C3DText.h | 03-08-2001 | 02:49:00 | | 1007 | acf49d85
+File Copy: C:\P5SDK\Hand\Source\C3DUtil.cpp | 03-12-2002 | 19:19:16 | | 85058 | e74afa0e
+File Copy: C:\P5SDK\Hand\Source\C3DUtil.h | 01-04-2001 | 07:45:00 | | 18787 | 157e3f8b
+File Copy: C:\P5SDK\Hand\Source\Glove.cpp | 05-13-2002 | 11:15:52 | | 1785 | 57ac3fda
+File Copy: C:\P5SDK\Hand\Source\Glove.h | 04-15-2001 | 09:23:18 | | 631 | 9c9db99e
+File Copy: C:\P5SDK\Hand\Source\Hand.aps | 05-13-2002 | 11:03:48 | | 21144 | 4d89e459
+File Copy: C:\P5SDK\Hand\Source\Hand.cpp | 05-14-2002 | 15:20:04 | | 18633 | 603a8395
+File Copy: C:\P5SDK\Hand\Source\Hand.rc | 04-16-2001 | 06:45:18 | | 4339 | ba8a8420
+File Copy: C:\P5SDK\Hand\Source\Icon1.ico | 02-25-2001 | 23:07:00 | | 766 | 95c36fb9
+File Copy: C:\P5SDK\Hand\Source\KeyboardControl.cpp | 03-19-2001 | 03:24:00 | | 6839 | efbbe705
+File Copy: C:\P5SDK\Hand\Source\KeyboardControl.h | 03-19-2001 | 03:24:00 | | 2814 | 5ee12c2
+File Copy: C:\P5SDK\Hand\Source\Resource.h | 04-15-2001 | 08:24:24 | | 1050 | 132f6a6b
+File Copy: C:\P5SDK\Hand\version.txt | 05-21-2002 | 12:26:08 | | 298 | 8238d08e
+Made Dir: C:\P5SDK\Knight
+File Copy: C:\P5SDK\Knight\d3dx8math2.inl | 05-06-2001 | 20:51:50 | | 1807 | df47c71a
+File Copy: C:\P5SDK\Knight\Icon1.ico | 05-04-2001 | 16:27:54 | | 766 | 95c36fb9
+File Copy: C:\P5SDK\Knight\Knight.dsp | 05-14-2002 | 12:08:12 | | 6597 | fe410da4
+File Copy: C:\P5SDK\Knight\Knight.dsw | 05-07-2001 | 20:19:00 | | 614 | 49375af8
+File Copy: C:\P5SDK\Knight\Knight.ilk | 05-13-2002 | 12:13:12 | | 1109996 | c4438e0d
+File Copy: C:\P5SDK\Knight\Knight.ncb | 05-14-2002 | 15:18:40 | | 361472 | c6b467c7
+File Copy: C:\P5SDK\Knight\Knight.opt | 05-14-2002 | 15:18:40 | | 61952 | 130358a6
+File Copy: C:\P5SDK\Knight\Knight.plg | 05-14-2002 | 15:18:32 | | 248 | bde1b3c5
+File Copy: C:\P5SDK\Knight\Knight.rc | 05-08-2001 | 05:42:36 | | 4240 | 3ed276f6
+File Copy: C:\P5SDK\Knight\KnightPhysics.ini | 05-08-2001 | 06:58:00 | | 3632 | f760bfd1
+Made Dir: C:\P5SDK\Knight\Source
+File Copy: C:\P5SDK\Knight\Source\C3DBody.cpp | 05-07-2001 | 21:24:00 | | 8786 | b6674bfd
+File Copy: C:\P5SDK\Knight\Source\C3DBody.h | 05-07-2001 | 00:51:00 | | 2820 | 7b6e5029
+File Copy: C:\P5SDK\Knight\Source\C3DCamera.cpp | 05-14-2001 | 02:29:00 | | 4085 | d02b83ac
+File Copy: C:\P5SDK\Knight\Source\C3DCamera.h | 05-14-2001 | 02:29:00 | | 2557 | 99913355
+File Copy: C:\P5SDK\Knight\Source\C3DEngine.cpp | 05-14-2002 | 12:08:04 | | 93494 | 9cbf6bdb
+File Copy: C:\P5SDK\Knight\Source\C3DEngine.h | 05-13-2002 | 12:37:54 | | 10626 | 4f93b56c
+File Copy: C:\P5SDK\Knight\Source\C3DFont.cpp | 05-04-2001 | 16:27:00 | | 23012 | 18bc1682
+File Copy: C:\P5SDK\Knight\Source\C3DFont.h | 05-04-2001 | 16:27:00 | | 2376 | 861db34f
+File Copy: C:\P5SDK\Knight\Source\C3DFrameObject.cpp | 05-07-2001 | 20:20:00 | | 69398 | 21726c9d
+File Copy: C:\P5SDK\Knight\Source\C3DFrameObject.h | 05-13-2002 | 12:46:48 | | 13624 | 1f329afd
+File Copy: C:\P5SDK\Knight\Source\C3DMesh.cpp | 05-04-2001 | 16:27:00 | | 7487 | de8b16f1
+File Copy: C:\P5SDK\Knight\Source\C3DMesh.h | 05-04-2001 | 16:27:00 | | 996 | b068620d
+File Copy: C:\P5SDK\Knight\Source\C3DObject.cpp | 05-04-2001 | 16:27:00 | | 16539 | 92513bab
+File Copy: C:\P5SDK\Knight\Source\C3DObject.h | 05-07-2001 | 20:20:00 | | 1950 | d28b0628
+File Copy: C:\P5SDK\Knight\Source\C3DText.cpp | 05-04-2001 | 16:27:00 | | 2049 | 4813e7f5
+File Copy: C:\P5SDK\Knight\Source\C3DText.h | 05-04-2001 | 16:27:00 | | 1007 | acf49d85
+File Copy: C:\P5SDK\Knight\Source\C3DUtil.cpp | 05-04-2001 | 16:27:00 | | 84907 | 75e613ab
+File Copy: C:\P5SDK\Knight\Source\C3DUtil.h | 05-04-2001 | 16:27:00 | | 18787 | 157e3f8b
+File Copy: C:\P5SDK\Knight\Source\d3dx8math2.h | 05-04-2001 | 22:18:00 | | 27621 | 10463f61
+File Copy: C:\P5SDK\Knight\Source\d3dx8math2.inl | 05-06-2001 | 20:51:00 | | 1807 | df47c71a
+File Copy: C:\P5SDK\Knight\Source\Glove.cpp | 05-14-2002 | 15:16:08 | | 1837 | 201956c1
+File Copy: C:\P5SDK\Knight\Source\Glove.h | 05-04-2001 | 16:27:00 | | 560 | a02d4336
+File Copy: C:\P5SDK\Knight\Source\Hand.cpp | 05-04-2001 | 15:27:00 | | 17295 | 762504d7
+File Copy: C:\P5SDK\Knight\Source\icon1.ico | 05-04-2001 | 16:27:00 | | 766 | 95c36fb9
+File Copy: C:\P5SDK\Knight\Source\KeyboardControl.cpp | 05-14-2002 | 11:40:52 | | 7114 | bf036ebc
+File Copy: C:\P5SDK\Knight\Source\KeyboardControl.h | 05-08-2001 | 05:16:00 | | 2856 | 3abfe0a5
+File Copy: C:\P5SDK\Knight\Source\Knight.aps | 05-14-2002 | 10:52:54 | | 19816 | bba4fb6a
+File Copy: C:\P5SDK\Knight\Source\Knight.cpp | 05-14-2002 | 15:18:30 | | 20789 | 7f69f78a
+File Copy: C:\P5SDK\Knight\Source\Knight.rc | 05-08-2001 | 05:42:00 | | 4240 | 3ed276f6
+File Copy: C:\P5SDK\Knight\Source\P5Joystick.cpp | 09-01-2001 | 22:03:58 | | 5948 | c905c382
+File Copy: C:\P5SDK\Knight\Source\P5Joystick.h | 08-30-2001 | 20:53:08 | | 918 | 8cc90df0
+File Copy: C:\P5SDK\Knight\Source\Resource.h | 05-08-2001 | 05:44:00 | | 1054 | 23ec29dc
+File Copy: C:\P5SDK\Knight\version.txt | 05-21-2002 | 11:52:58 | | 56 | ea0167
+Made Dir: C:\P5SDK\P5api
+File Copy: C:\P5SDK\P5api\P5dll.h | 05-08-2002 | 22:22:42 | | 3081 | 8a329c57
+File Copy: C:\P5SDK\P5api\P5DLL.lib | 05-17-2002 | 12:59:10 | | 8340 | d229d24c
+Made Dir: C:\P5SDK\P5BendDemo
+File Copy: C:\P5SDK\P5BendDemo\P5BendDemo.aps | 05-13-2002 | 13:49:12 | | 37568 | a0ea6fb9
+File Copy: C:\P5SDK\P5BendDemo\P5BendDemo.clw | 05-13-2002 | 16:01:14 | | 2322 | 14fb579c
+File Copy: C:\P5SDK\P5BendDemo\P5BendDemo.cpp | 05-13-2002 | 11:27:52 | | 2119 | 970e53d6
+File Copy: C:\P5SDK\P5BendDemo\P5BendDemo.dsp | 05-13-2002 | 16:01:20 | | 4566 | 6976ef3e
+File Copy: C:\P5SDK\P5BendDemo\P5BendDemo.dsw | 05-13-2002 | 11:27:52 | | 545 | 512c4445
+File Copy: C:\P5SDK\P5BendDemo\P5BendDemo.h | 05-13-2002 | 11:27:52 | | 1368 | 61f86dea
+File Copy: C:\P5SDK\P5BendDemo\P5BendDemo.ncb | 05-13-2002 | 16:01:20 | | 58368 | b9c73e0c
+File Copy: C:\P5SDK\P5BendDemo\P5BendDemo.opt | 05-13-2002 | 16:01:20 | | 54784 | 725b590f
+File Copy: C:\P5SDK\P5BendDemo\P5BendDemo.plg | 05-13-2002 | 16:00:58 | | 1154 | 974c3665
+File Copy: C:\P5SDK\P5BendDemo\P5BendDemo.rc | 05-13-2002 | 13:49:12 | | 7927 | 9053bc25
+File Copy: C:\P5SDK\P5BendDemo\P5BendDemoDlg.cpp | 05-13-2002 | 14:04:50 | | 8159 | abff3aaf
+File Copy: C:\P5SDK\P5BendDemo\P5BendDemoDlg.h | 05-13-2002 | 14:04:30 | | 1903 | c31bef49
+File Copy: C:\P5SDK\P5BendDemo\ReadMe.txt | 05-13-2002 | 11:27:52 | | 3651 | dcfe0b60
+Made Dir: C:\P5SDK\P5BendDemo\res
+File Copy: C:\P5SDK\P5BendDemo\res\P5BendDemo.ico | 05-13-2002 | 11:27:52 | | 1078 | 120de4e4
+File Copy: C:\P5SDK\P5BendDemo\res\P5BendDemo.rc2 | 05-13-2002 | 11:27:52 | | 402 | a68aba39
+File Copy: C:\P5SDK\P5BendDemo\resource.h | 05-13-2002 | 13:45:58 | | 1608 | 5d29ec2f
+File Copy: C:\P5SDK\P5BendDemo\StdAfx.cpp | 05-13-2002 | 11:27:52 | | 212 | bd0d47a1
+File Copy: C:\P5SDK\P5BendDemo\StdAfx.h | 05-13-2002 | 11:27:52 | | 1054 | b38a99bc
+Made Dir: C:\P5SDK\P5MouseUtil
+File Copy: C:\P5SDK\P5MouseUtil\BendsPage.cpp | 05-08-2002 | 22:38:36 | | 3356 | e10bc480
+File Copy: C:\P5SDK\P5MouseUtil\BendsPage.h | 05-06-2002 | 20:05:00 | | 1379 | 8b41bba2
+File Copy: C:\P5SDK\P5MouseUtil\ButtonsPage.cpp | 04-19-2002 | 10:27:44 | | 2068 | a6da3dbe
+File Copy: C:\P5SDK\P5MouseUtil\ButtonsPage.h | 04-19-2002 | 10:24:42 | | 1345 | c63e0eb8
+File Copy: C:\P5SDK\P5MouseUtil\debug.txt | 05-08-2002 | 13:11:14 | | 3507 | 4bb32d55
+File Copy: C:\P5SDK\P5MouseUtil\LedButton.cpp | 03-08-2000 | 19:12:50 | | 4617 | 5c900a91
+File Copy: C:\P5SDK\P5MouseUtil\LedButton.h | 03-08-2000 | 19:11:02 | | 4579 | 371ae4db
+File Copy: C:\P5SDK\P5MouseUtil\MouseExPage.cpp | 05-08-2002 | 22:49:24 | | 3032 | 2688e657
+File Copy: C:\P5SDK\P5MouseUtil\MouseExPage.h | 05-06-2002 | 20:51:20 | | 1329 | 24ac7de0
+File Copy: C:\P5SDK\P5MouseUtil\MousePage.cpp | 05-08-2002 | 13:11:10 | | 8027 | 6ee0903c
+File Copy: C:\P5SDK\P5MouseUtil\MousePage.h | 05-07-2002 | 16:17:22 | | 1704 | 7d4d6eec
+File Copy: C:\P5SDK\P5MouseUtil\P5UtilBeta.aps | 05-08-2002 | 22:47:48 | | 115580 | 3622b0f8
+File Copy: C:\P5SDK\P5MouseUtil\P5UtilBeta.clw | 05-08-2002 | 22:51:28 | | 4674 | 55f0e91e
+File Copy: C:\P5SDK\P5MouseUtil\P5UtilBeta.cpp | 04-18-2002 | 10:19:44 | | 2088 | 94ebfdd5
+File Copy: C:\P5SDK\P5MouseUtil\P5UtilBeta.dsp | 05-08-2002 | 22:31:58 | | 6473 | 4cf562e4
+File Copy: C:\P5SDK\P5MouseUtil\P5UtilBeta.dsw | 04-19-2002 | 09:18:14 | | 626 | 467a5d3c
+File Copy: C:\P5SDK\P5MouseUtil\P5UtilBeta.h | 04-18-2002 | 10:02:16 | | 1368 | c026e4af
+File Copy: C:\P5SDK\P5MouseUtil\P5UtilBeta.ncb | 05-09-2002 | 11:26:08 | | 156672 | ed708ddb
+File Copy: C:\P5SDK\P5MouseUtil\P5UtilBeta.opt | 05-09-2002 | 11:26:08 | | 54784 | 6196c82c
+File Copy: C:\P5SDK\P5MouseUtil\P5UtilBeta.plg | 05-09-2002 | 11:25:18 | | 1703 | c6555b6c
+File Copy: C:\P5SDK\P5MouseUtil\P5UtilBeta.rc | 05-08-2002 | 22:47:48 | | 12939 | ee866d5b
+File Copy: C:\P5SDK\P5MouseUtil\P5UtilBetaDlg.cpp | 04-19-2002 | 18:22:50 | | 5249 | 5dab78e2
+File Copy: C:\P5SDK\P5MouseUtil\P5UtilBetaDlg.h | 04-23-2002 | 09:19:34 | | 2266 | 1213564f
+File Copy: C:\P5SDK\P5MouseUtil\ReadMe.txt | 04-18-2002 | 10:02:16 | | 3651 | 648e515a
+Made Dir: C:\P5SDK\P5MouseUtil\Release
+File Copy: C:\P5SDK\P5MouseUtil\Release\BendsPage.obj | 07-15-2002 | 15:09:42 | | 18093 | fea65ed1
+File Copy: C:\P5SDK\P5MouseUtil\Release\ButtonsPage.obj | 07-15-2002 | 15:09:42 | | 26975 | 103d5e31
+File Copy: C:\P5SDK\P5MouseUtil\Release\LedButton.obj | 07-15-2002 | 15:09:42 | | 6399 | 9406a53a
+File Copy: C:\P5SDK\P5MouseUtil\Release\MouseExPage.obj | 07-15-2002 | 15:09:42 | | 16118 | ac4849d8
+File Copy: C:\P5SDK\P5MouseUtil\Release\MousePage.obj | 07-15-2002 | 15:09:42 | | 31522 | 15f556d3
+File Copy: C:\P5SDK\P5MouseUtil\Release\P5UtilBeta.obj | 07-15-2002 | 15:09:42 | | 15093 | 698834cf
+File Copy: C:\P5SDK\P5MouseUtil\Release\P5UtilBeta.pch | 07-15-2002 | 15:09:40 | | 5696648 | bd0d5061
+File Copy: C:\P5SDK\P5MouseUtil\Release\P5UtilBeta.res | 07-15-2002 | 15:09:38 | | 76540 | 152eb124
+File Copy: C:\P5SDK\P5MouseUtil\Release\P5UtilBetaDlg.obj | 07-15-2002 | 15:09:42 | | 15700 | 3957f7b2
+File Copy: C:\P5SDK\P5MouseUtil\Release\StdAfx.obj | 07-15-2002 | 15:09:42 | | 750 | c5b40929
+File Copy: C:\P5SDK\P5MouseUtil\Release\vc60.idb | 07-15-2002 | 15:09:42 | | 58368 | 71284634
+File Copy: C:\P5SDK\P5MouseUtil\Release\XyzPage.obj | 07-15-2002 | 15:09:42 | | 19222 | 2287b879
+Made Dir: C:\P5SDK\P5MouseUtil\res
+File Copy: C:\P5SDK\P5MouseUtil\res\dclick1.bmp | 04-19-2002 | 17:32:32 | | 7656 | 63b5ffea
+File Copy: C:\P5SDK\P5MouseUtil\res\dclick2.bmp | 04-19-2002 | 17:32:24 | | 7656 | 4cd6ee09
+File Copy: C:\P5SDK\P5MouseUtil\res\jack-in-the-box.avi | 05-07-2002 | 12:25:46 | | 13638 | 51886fd8
+File Copy: C:\P5SDK\P5MouseUtil\res\led_red.bmp | 04-19-2002 | 10:14:32 | | 358 | 7fe497af
+File Copy: C:\P5SDK\P5MouseUtil\res\logo.bmp | 04-18-2002 | 13:13:28 | | 7288 | 77780fef
+File Copy: C:\P5SDK\P5MouseUtil\res\P5UtilBeta.ico | 04-19-2002 | 09:36:32 | | 1078 | a035d83c
+File Copy: C:\P5SDK\P5MouseUtil\res\P5UtilBeta.rc2 | 04-18-2002 | 10:02:16 | | 402 | 46dee469
+File Copy: C:\P5SDK\P5MouseUtil\res\sclickLeft1.bmp | 05-07-2002 | 16:11:16 | | 7656 | cd46f04a
+File Copy: C:\P5SDK\P5MouseUtil\res\sclickLeft2.bmp | 05-07-2002 | 16:11:16 | | 7656 | 278540f2
+File Copy: C:\P5SDK\P5MouseUtil\res\sclickMid1.bmp | 05-07-2002 | 16:21:24 | | 7656 | 4e45abd8
+File Copy: C:\P5SDK\P5MouseUtil\res\sclickMid2.bmp | 05-07-2002 | 16:21:24 | | 7656 | 328bc0b4
+File Copy: C:\P5SDK\P5MouseUtil\res\sclickRight1.bmp | 05-07-2002 | 16:11:16 | | 7656 | 7ec12556
+File Copy: C:\P5SDK\P5MouseUtil\res\sclickRight2.bmp | 05-07-2002 | 16:11:16 | | 7656 | 4159d6cf
+File Copy: C:\P5SDK\P5MouseUtil\res\testarea1.bmp | 04-19-2002 | 18:30:22 | | 7656 | e192e13d
+File Copy: C:\P5SDK\P5MouseUtil\res\testarea2.bmp | 04-18-2002 | 13:30:02 | | 7656 | 22284905
+File Copy: C:\P5SDK\P5MouseUtil\Resource.h | 05-07-2002 | 16:21:24 | | 3384 | db4317a0
+File Copy: C:\P5SDK\P5MouseUtil\StdAfx.cpp | 04-18-2002 | 10:02:16 | | 212 | 398176ca
+File Copy: C:\P5SDK\P5MouseUtil\StdAfx.h | 04-18-2002 | 10:02:16 | | 999 | 5d049708
+File Copy: C:\P5SDK\P5MouseUtil\XyzPage.cpp | 04-23-2002 | 11:16:50 | | 2818 | 9d28b2bd
+File Copy: C:\P5SDK\P5MouseUtil\XyzPage.h | 04-19-2002 | 10:02:34 | | 1336 | b18b592a
+Made Dir: C:\P5SDK\P5Utils
+File Copy: C:\P5SDK\P5Utils\P5Bend.cpp | 05-13-2002 | 17:01:46 | | 3426 | 249e514d
+File Copy: C:\P5SDK\P5Utils\P5Bend.h | 05-13-2002 | 14:01:20 | | 295 | 58f8fd67
+File Copy: C:\P5SDK\P5Utils\P5Motion.cpp | 07-17-2002 | 14:57:18 | | 12311 | 93873901
+File Copy: C:\P5SDK\P5Utils\P5Motion.h | 05-08-2002 | 22:13:48 | | 682 | f0f138f4
+File Copy: C:\P5SDK\P5Utils\StdAfx.cpp | 04-18-2002 | 10:02:16 | | 212 | 398176ca
+File Copy: C:\P5SDK\P5Utils\StdAfx.h | 04-18-2002 | 10:02:16 | | 999 | 5d049708
+Made Dir: C:\P5SDK\Run
+File Copy: C:\P5SDK\Run\ballerina.ini | 05-14-2001 | 21:22:12 | | 3559 | 559ee571
+File Copy: C:\P5SDK\Run\cage.ini | 05-14-2002 | 16:08:58 | | 504 | 396e64ff
+File Copy: C:\P5SDK\Run\cage2.exe | 07-12-2002 | 14:22:34 | | 479232 | 27eaf7f8
+File Copy: C:\P5SDK\Run\Glove.ini | 04-13-2001 | 15:49:00 | | 149 | 75d45aaf
+File Copy: C:\P5SDK\Run\Glove_knight.ini | 09-06-2001 | 18:24:18 | | 113 | e00c135b
+File Copy: C:\P5SDK\Run\Hand.exe | 05-13-2002 | 11:48:14 | | 405504 | 56800930
+File Copy: C:\P5SDK\Run\Hand.ini | 04-13-2001 | 17:17:00 | | 3420 | 4f7ac82e
+File Copy: C:\P5SDK\Run\Hand_D.exe | 05-14-2002 | 15:20:06 | | 1003569 | c7b2fc75
+File Copy: C:\P5SDK\Run\Knight.exe | 05-14-2002 | 15:18:32 | | 389120 | 85e8cfe3
+File Copy: C:\P5SDK\Run\Knight.ini | 05-15-2001 | 05:21:48 | | 3590 | 6a0bd103
+File Copy: C:\P5SDK\Run\KnightPhysics.ini | 05-08-2001 | 06:58:00 | | 3632 | f760bfd1
+File Copy: C:\P5SDK\Run\Knight_D.exe | 05-13-2002 | 12:54:50 | | 1032245 | 2a997245
+Made Dir: C:\P5SDK\Run\Media
+File Copy: C:\P5SDK\Run\Media\30fpshand.x | 03-18-2001 | 21:50:00 | | 284005 | 283c0e67
+File Copy: C:\P5SDK\Run\Media\a1.wav | 03-12-2002 | 13:16:30 | | 529318 | 3ecf96f6
+File Copy: C:\P5SDK\Run\Media\a2.wav | 03-12-2002 | 13:16:28 | | 529526 | ff5b7006
+File Copy: C:\P5SDK\Run\Media\a3.wav | 03-12-2002 | 13:16:28 | | 529374 | d2de8179
+File Copy: C:\P5SDK\Run\Media\a4.wav | 03-12-2002 | 13:16:26 | | 529494 | 46bf4c1a
+File Copy: C:\P5SDK\Run\Media\a5.wav | 03-12-2002 | 13:16:22 | | 529526 | b75f2965
+File Copy: C:\P5SDK\Run\Media\a6.wav | 03-12-2002 | 13:16:26 | | 529254 | 888e8d1d
+File Copy: C:\P5SDK\Run\Media\a7.wav | 03-12-2002 | 13:16:26 | | 527382 | 29ed6611
+File Copy: C:\P5SDK\Run\Media\a8.wav | 03-12-2002 | 13:16:24 | | 529358 | 33342418
+File Copy: C:\P5SDK\Run\Media\a9.wav | 03-12-2002 | 13:16:24 | | 529446 | b9e1e506
+Made Dir: C:\P5SDK\Run\Media\art
+File Copy: C:\P5SDK\Run\Media\art\cage05.x | 02-16-2002 | 17:53:16 | | 221016 | f9ee445b
+File Copy: C:\P5SDK\Run\Media\art\credits_box.bmp | 03-13-2002 | 14:55:16 | | 4234088 | 75ed4d3c
+File Copy: C:\P5SDK\Run\Media\art\credits_box.x | 05-21-2002 | 12:52:54 | | 17676 | 21c1877c
+File Copy: C:\P5SDK\Run\Media\art\disc-explosion.bmp | 03-08-2002 | 11:31:12 | | 196664 | 88988bd0
+File Copy: C:\P5SDK\Run\Media\art\disc-explosion.x | 05-21-2002 | 12:54:36 | | 17922 | 94b64c09
+File Copy: C:\P5SDK\Run\Media\art\disc-starfield3.x | 05-21-2002 | 12:54:30 | | 17924 | a10d5594
+File Copy: C:\P5SDK\Run\Media\art\disc-starfield3_0.bmp | 03-08-2002 | 11:32:14 | | 196664 | 699bf215
+File Copy: C:\P5SDK\Run\Media\art\donut01.x | 05-21-2002 | 12:54:20 | | 63400 | 7a7f4184
+File Copy: C:\P5SDK\Run\Media\art\donut02.x | 05-21-2002 | 12:54:08 | | 65947 | b295c1d
+File Copy: C:\P5SDK\Run\Media\art\donut03.x | 05-21-2002 | 12:53:56 | | 68786 | aece7ba1
+File Copy: C:\P5SDK\Run\Media\art\donut04.x | 05-21-2002 | 12:55:18 | | 63400 | 8fda85a2
+File Copy: C:\P5SDK\Run\Media\art\donut05.x | 05-21-2002 | 12:55:12 | | 75351 | 50e5af6b
+File Copy: C:\P5SDK\Run\Media\art\donut06.x | 05-21-2002 | 12:55:04 | | 74898 | 605fec3
+File Copy: C:\P5SDK\Run\Media\art\newtex03.bmp | 02-17-2002 | 18:58:24 | | 393270 | 2d04c7
+File Copy: C:\P5SDK\Run\Media\art\placement-disk.x | 01-24-2002 | 19:06:48 | | 3368 | f8ec6a61
+File Copy: C:\P5SDK\Run\Media\art\star06-dark.x | 02-18-2002 | 19:34:12 | | 56176 | 12c7a332
+File Copy: C:\P5SDK\Run\Media\art\star06-ingame.x | 02-18-2002 | 19:34:12 | | 56176 | 512bc270
+File Copy: C:\P5SDK\Run\Media\art\star06-lite.x | 02-18-2002 | 19:34:12 | | 56176 | eff9fcc5
+File Copy: C:\P5SDK\Run\Media\backcurtainc.jpg | 05-13-2001 | 14:13:00 | | 168068 | 189fa408
+File Copy: C:\P5SDK\Run\Media\backpainting.jpg | 05-07-2001 | 20:20:02 | | 252187 | e1fb1942
+File Copy: C:\P5SDK\Run\Media\backwall_1.wav | 03-12-2002 | 13:16:32 | | 885024 | a5d082b7
+File Copy: C:\P5SDK\Run\Media\back_wall.sgt | 03-12-2002 | 13:16:36 | | 536 | d1d03df2
+File Copy: C:\P5SDK\Run\Media\ballerinatxt.X | 05-11-2001 | 16:03:20 | | 1049343 | ecb2eef2
+File Copy: C:\P5SDK\Run\Media\begin_1.wav | 03-12-2002 | 13:16:30 | | 1018144 | 923ffa4f
+File Copy: C:\P5SDK\Run\Media\begin_game.sgt | 03-12-2002 | 13:16:32 | | 526 | 2418ed68
+File Copy: C:\P5SDK\Run\Media\begin_game.wav | 01-25-2002 | 21:57:10 | | 233428 | 9a3e8efc
+File Copy: C:\P5SDK\Run\Media\cage05.x | 02-16-2002 | 17:53:16 | | 221016 | f9ee445b
+File Copy: C:\P5SDK\Run\Media\catch.sgt | 03-12-2002 | 13:16:32 | | 516 | 7ef3b3ad
+File Copy: C:\P5SDK\Run\Media\catch.wav | 01-25-2002 | 21:57:10 | | 14454 | 6336732e
+File Copy: C:\P5SDK\Run\Media\catch_1.wav | 03-12-2002 | 13:16:32 | | 178460 | cbe966d5
+File Copy: C:\P5SDK\Run\Media\Cedfence.jpg | 05-07-2001 | 20:20:10 | | 285520 | 3b565807
+File Copy: C:\P5SDK\Run\Media\credits_box.bmp | 03-13-2002 | 14:55:16 | | 4234088 | 75ed4d3c
+File Copy: C:\P5SDK\Run\Media\credits_box.x | 03-06-2002 | 12:40:54 | | 17670 | be44de96
+File Copy: C:\P5SDK\Run\Media\curtainleftc.jpg | 05-07-2001 | 20:20:10 | | 34442 | a7059393
+File Copy: C:\P5SDK\Run\Media\curtainrightc.jpg | 05-07-2001 | 20:20:12 | | 38276 | 4aac0fee
+File Copy: C:\P5SDK\Run\Media\curtaintopc.jpg | 05-07-2001 | 20:20:14 | | 129613 | 5355a04e
+File Copy: C:\P5SDK\Run\Media\d2.wav | 03-12-2002 | 13:16:36 | | 280806 | 10c0437f
+File Copy: C:\P5SDK\Run\Media\d3.wav | 03-12-2002 | 13:16:36 | | 283366 | dcdefac8
+File Copy: C:\P5SDK\Run\Media\d4.wav | 03-12-2002 | 13:16:38 | | 282438 | 8d115c31
+File Copy: C:\P5SDK\Run\Media\d5.wav | 03-12-2002 | 13:16:38 | | 282022 | fc8a5929
+File Copy: C:\P5SDK\Run\Media\d6.wav | 03-12-2002 | 13:16:38 | | 283142 | 9ecef8e5
+File Copy: C:\P5SDK\Run\Media\d7.wav | 03-12-2002 | 13:16:38 | | 282526 | ed0729f9
+File Copy: C:\P5SDK\Run\Media\d8.wav | 03-12-2002 | 13:16:40 | | 282086 | a935defa
+File Copy: C:\P5SDK\Run\Media\d9.wav | 03-12-2002 | 13:16:40 | | 283174 | 390850d7
+File Copy: C:\P5SDK\Run\Media\da.wav | 03-12-2002 | 13:16:40 | | 282598 | 18f0d728
+File Copy: C:\P5SDK\Run\Media\db.wav | 03-12-2002 | 13:16:40 | | 282534 | 414b66ad
+File Copy: C:\P5SDK\Run\Media\dc.wav | 03-12-2002 | 13:16:42 | | 282214 | 2e5a5385
+File Copy: C:\P5SDK\Run\Media\dd.wav | 03-12-2002 | 13:16:42 | | 282854 | 10b26d74
+File Copy: C:\P5SDK\Run\Media\de.wav | 03-12-2002 | 13:16:42 | | 282534 | 1d84229b
+File Copy: C:\P5SDK\Run\Media\df.wav | 03-12-2002 | 13:16:42 | | 282406 | b07619
+File Copy: C:\P5SDK\Run\Media\disc-explosion.bmp | 03-08-2002 | 11:31:12 | | 196664 | 88988bd0
+File Copy: C:\P5SDK\Run\Media\disc-explosion.x | 03-01-2002 | 00:19:58 | | 17916 | e7dbb606
+File Copy: C:\P5SDK\Run\Media\disc-starfield3.x | 02-28-2002 | 10:09:02 | | 17918 | bbabda62
+File Copy: C:\P5SDK\Run\Media\disc-starfield3_0.bmp | 03-08-2002 | 11:32:14 | | 196664 | 699bf215
+File Copy: C:\P5SDK\Run\Media\donut01.x | 02-17-2002 | 19:02:18 | | 63394 | 79a294f8
+File Copy: C:\P5SDK\Run\Media\donut02.x | 02-17-2002 | 19:02:32 | | 65941 | c35fc0a2
+File Copy: C:\P5SDK\Run\Media\donut03.x | 02-17-2002 | 19:02:38 | | 68780 | 10e476c5
+File Copy: C:\P5SDK\Run\Media\donut04.x | 02-17-2002 | 19:02:40 | | 63394 | e1ab47e9
+File Copy: C:\P5SDK\Run\Media\donut05.x | 02-17-2002 | 19:02:42 | | 75345 | 17ad5d53
+File Copy: C:\P5SDK\Run\Media\donut06.x | 02-17-2002 | 19:02:46 | | 74892 | 422554da
+File Copy: C:\P5SDK\Run\Media\Face5.jpg | 05-09-2001 | 02:46:46 | | 26060 | cba1507e
+File Copy: C:\P5SDK\Run\Media\game_music.sgt | 03-12-2002 | 13:16:30 | | 1978 | 61ea5e50
+File Copy: C:\P5SDK\Run\Media\game_music_2.sgt | 03-12-2002 | 13:16:42 | | 2902 | 6e3c6a12
+File Copy: C:\P5SDK\Run\Media\gridbluel_tile.bmp | 03-18-2001 | 21:50:00 | | 5140 | f93492ed
+File Copy: C:\P5SDK\Run\Media\handmapped2.x | 04-16-2001 | 07:51:24 | | 336320 | 1d37b7eb
+File Copy: C:\P5SDK\Run\Media\Hand_full_512C.jpg | 04-13-2001 | 06:09:00 | | 23455 | b192eabc
+File Copy: C:\P5SDK\Run\Media\knighttxt.x | 05-15-2001 | 05:18:40 | | 933108 | 7fa124a2
+File Copy: C:\P5SDK\Run\Media\lose_1.wav | 03-12-2002 | 13:16:34 | | 610588 | 4c647f16
+File Copy: C:\P5SDK\Run\Media\lose_game.sgt | 03-12-2002 | 13:16:32 | | 520 | 43c2437c
+File Copy: C:\P5SDK\Run\Media\lose_game.wav | 01-25-2002 | 21:57:10 | | 256762 | 5ace80e2
+File Copy: C:\P5SDK\Run\Media\miss.sgt | 03-12-2002 | 13:16:34 | | 510 | 4b88d4d4
+File Copy: C:\P5SDK\Run\Media\miss.wav | 01-25-2002 | 21:57:10 | | 18902 | e5ad1c02
+File Copy: C:\P5SDK\Run\Media\miss_1.wav | 03-12-2002 | 13:16:34 | | 126236 | d9cbb95d
+File Copy: C:\P5SDK\Run\Media\newtex03.bmp | 02-17-2002 | 18:58:24 | | 393270 | 2d04c7
+File Copy: C:\P5SDK\Run\Media\placement-disk.x | 01-24-2002 | 19:06:48 | | 3368 | f8ec6a61
+File Copy: C:\P5SDK\Run\Media\robothand08.x | 03-10-2001 | 20:07:00 | | 493171 | f69eb2bd
+File Copy: C:\P5SDK\Run\Media\scifihand09.x | 03-19-2001 | 05:17:00 | | 439267 | 19af30ab
+File Copy: C:\P5SDK\Run\Media\Segment1.sgt | 01-23-2002 | 20:16:36 | | 2422 | 8f8d2c72
+File Copy: C:\P5SDK\Run\Media\simpleroom.x | 03-19-2001 | 04:38:00 | | 4596 | e18f17d1
+File Copy: C:\P5SDK\Run\Media\Skeletor.x | 04-12-2001 | 12:14:00 | | 193765 | b8ce4555
+Made Dir: C:\P5SDK\Run\Media\sound
+File Copy: C:\P5SDK\Run\Media\sound\a1.wav | 03-12-2002 | 13:16:30 | | 529318 | 3ecf96f6
+File Copy: C:\P5SDK\Run\Media\sound\a2.wav | 03-12-2002 | 13:16:28 | | 529526 | ff5b7006
+File Copy: C:\P5SDK\Run\Media\sound\a3.wav | 03-12-2002 | 13:16:28 | | 529374 | d2de8179
+File Copy: C:\P5SDK\Run\Media\sound\a4.wav | 03-12-2002 | 13:16:26 | | 529494 | 46bf4c1a
+File Copy: C:\P5SDK\Run\Media\sound\a5.wav | 03-12-2002 | 13:16:22 | | 529526 | b75f2965
+File Copy: C:\P5SDK\Run\Media\sound\a6.wav | 03-12-2002 | 13:16:26 | | 529254 | 888e8d1d
+File Copy: C:\P5SDK\Run\Media\sound\a7.wav | 03-12-2002 | 13:16:26 | | 527382 | 29ed6611
+File Copy: C:\P5SDK\Run\Media\sound\a8.wav | 03-12-2002 | 13:16:24 | | 529358 | 33342418
+File Copy: C:\P5SDK\Run\Media\sound\a9.wav | 03-12-2002 | 13:16:24 | | 529446 | b9e1e506
+File Copy: C:\P5SDK\Run\Media\sound\backwall_1.wav | 03-12-2002 | 13:16:32 | | 885024 | a5d082b7
+File Copy: C:\P5SDK\Run\Media\sound\back_wall.sgt | 03-12-2002 | 13:16:36 | | 536 | d1d03df2
+File Copy: C:\P5SDK\Run\Media\sound\begin_1.wav | 03-12-2002 | 13:16:30 | | 1018144 | 923ffa4f
+File Copy: C:\P5SDK\Run\Media\sound\begin_game.sgt | 03-12-2002 | 13:16:32 | | 526 | 2418ed68
+File Copy: C:\P5SDK\Run\Media\sound\begin_game.wav | 01-25-2002 | 21:57:10 | | 233428 | 9a3e8efc
+File Copy: C:\P5SDK\Run\Media\sound\cage_music.zip | 03-01-2002 | 00:49:40 | | 3217424 | 6ef28445
+File Copy: C:\P5SDK\Run\Media\sound\catch.sgt | 03-12-2002 | 13:16:32 | | 516 | 7ef3b3ad
+File Copy: C:\P5SDK\Run\Media\sound\catch.wav | 01-25-2002 | 21:57:10 | | 14454 | 6336732e
+File Copy: C:\P5SDK\Run\Media\sound\catch_1.wav | 03-12-2002 | 13:16:32 | | 178460 | cbe966d5
+File Copy: C:\P5SDK\Run\Media\sound\d2.wav | 03-12-2002 | 13:16:36 | | 280806 | 10c0437f
+File Copy: C:\P5SDK\Run\Media\sound\d3.wav | 03-12-2002 | 13:16:36 | | 283366 | dcdefac8
+File Copy: C:\P5SDK\Run\Media\sound\d4.wav | 03-12-2002 | 13:16:38 | | 282438 | 8d115c31
+File Copy: C:\P5SDK\Run\Media\sound\d5.wav | 03-12-2002 | 13:16:38 | | 282022 | fc8a5929
+File Copy: C:\P5SDK\Run\Media\sound\d6.wav | 03-12-2002 | 13:16:38 | | 283142 | 9ecef8e5
+File Copy: C:\P5SDK\Run\Media\sound\d7.wav | 03-12-2002 | 13:16:38 | | 282526 | ed0729f9
+File Copy: C:\P5SDK\Run\Media\sound\d8.wav | 03-12-2002 | 13:16:40 | | 282086 | a935defa
+File Copy: C:\P5SDK\Run\Media\sound\d9.wav | 03-12-2002 | 13:16:40 | | 283174 | 390850d7
+File Copy: C:\P5SDK\Run\Media\sound\da.wav | 03-12-2002 | 13:16:40 | | 282598 | 18f0d728
+File Copy: C:\P5SDK\Run\Media\sound\db.wav | 03-12-2002 | 13:16:40 | | 282534 | 414b66ad
+File Copy: C:\P5SDK\Run\Media\sound\dc.wav | 03-12-2002 | 13:16:42 | | 282214 | 2e5a5385
+File Copy: C:\P5SDK\Run\Media\sound\dd.wav | 03-12-2002 | 13:16:42 | | 282854 | 10b26d74
+File Copy: C:\P5SDK\Run\Media\sound\de.wav | 03-12-2002 | 13:16:42 | | 282534 | 1d84229b
+File Copy: C:\P5SDK\Run\Media\sound\df.wav | 03-12-2002 | 13:16:42 | | 282406 | b07619
+File Copy: C:\P5SDK\Run\Media\sound\game_music.sgt | 03-12-2002 | 13:16:30 | | 1978 | 61ea5e50
+File Copy: C:\P5SDK\Run\Media\sound\game_music_2.sgt | 03-12-2002 | 13:16:42 | | 2902 | 6e3c6a12
+File Copy: C:\P5SDK\Run\Media\sound\lose_1.wav | 03-12-2002 | 13:16:34 | | 610588 | 4c647f16
+File Copy: C:\P5SDK\Run\Media\sound\lose_game.sgt | 03-12-2002 | 13:16:32 | | 520 | 43c2437c
+File Copy: C:\P5SDK\Run\Media\sound\lose_game.wav | 01-25-2002 | 21:57:10 | | 256762 | 5ace80e2
+File Copy: C:\P5SDK\Run\Media\sound\miss.sgt | 03-12-2002 | 13:16:34 | | 510 | 4b88d4d4
+File Copy: C:\P5SDK\Run\Media\sound\miss.wav | 01-25-2002 | 21:57:10 | | 18902 | e5ad1c02
+File Copy: C:\P5SDK\Run\Media\sound\miss_1.wav | 03-12-2002 | 13:16:34 | | 126236 | d9cbb95d
+File Copy: C:\P5SDK\Run\Media\sound\Segment1.sgt | 01-23-2002 | 20:16:36 | | 2422 | 8f8d2c72
+File Copy: C:\P5SDK\Run\Media\sound\throw.sgt | 03-12-2002 | 13:16:34 | | 516 | 7f8ee7f6
+File Copy: C:\P5SDK\Run\Media\sound\throw_1.wav | 03-12-2002 | 13:16:34 | | 241948 | f282d575
+File Copy: C:\P5SDK\Run\Media\sound\wingame_1.wav | 03-12-2002 | 13:16:36 | | 455966 | 3f6d3507
+File Copy: C:\P5SDK\Run\Media\sound\win_game.sgt | 03-12-2002 | 13:16:34 | | 530 | 33fe5ac6
+File Copy: C:\P5SDK\Run\Media\sound\win_game.wav | 01-25-2002 | 21:57:10 | | 242426 | e071aa80
+File Copy: C:\P5SDK\Run\Media\stageatxt.X | 05-11-2001 | 15:53:00 | | 35617 | a53d9e0c
+File Copy: C:\P5SDK\Run\Media\stagebtxt.X | 05-11-2001 | 16:04:00 | | 35617 | 97822851
+File Copy: C:\P5SDK\Run\Media\Stagetxt.x | 05-07-2001 | 20:20:00 | | 35374 | 17c0133b
+File Copy: C:\P5SDK\Run\Media\star06-dark.x | 02-18-2002 | 19:34:12 | | 56176 | 12c7a332
+File Copy: C:\P5SDK\Run\Media\star06-ingame.x | 02-18-2002 | 19:34:12 | | 56176 | 512bc270
+File Copy: C:\P5SDK\Run\Media\star06-lite.x | 02-18-2002 | 19:34:12 | | 56176 | eff9fcc5
+File Copy: C:\P5SDK\Run\Media\throw.sgt | 03-12-2002 | 13:16:34 | | 516 | 7f8ee7f6
+File Copy: C:\P5SDK\Run\Media\throw_1.wav | 03-12-2002 | 13:16:34 | | 241948 | f282d575
+File Copy: C:\P5SDK\Run\Media\tutusidec.jpg | 05-06-2001 | 22:10:08 | | 37454 | d6138345
+File Copy: C:\P5SDK\Run\Media\wingame_1.wav | 03-12-2002 | 13:16:36 | | 455966 | 3f6d3507
+File Copy: C:\P5SDK\Run\Media\win_game.sgt | 03-12-2002 | 13:16:34 | | 530 | 33fe5ac6
+File Copy: C:\P5SDK\Run\Media\win_game.wav | 01-25-2002 | 21:57:10 | | 242426 | e071aa80
+File Copy: C:\P5SDK\Run\P5BendDemo.exe | 05-13-2002 | 16:00:58 | 1.0.0.1 | 32768 | f07e1850
+File Copy: C:\P5SDK\Run\P5DLL.dll | 05-20-2002 | 17:33:46 | 4.6.25.7 | 90112 | 3173d9b0
+File Copy: C:\P5SDK\Run\P5MouseUtil.exe | 06-13-2002 | 16:57:52 | 1.0.0.1 | 118784 | 7a6f2fde
+File Copy: C:\P5SDK\Run\Robot.ini | 03-10-2001 | 22:19:00 | | 3247 | 92a0a2a0
+File Copy: C:\P5SDK\Run\Scifi.ini | 03-19-2001 | 04:56:00 | | 3265 | 58f2358c
+File Copy: C:\P5SDK\Run\Skeleton.ini | 04-13-2001 | 16:15:00 | | 3325 | 257c1a87
+File Copy: C:\P5SDK\Run\XYZDemo.exe | 05-09-2002 | 11:33:08 | 1.0.0.1 | 24576 | cbae8dc8
+File Copy: C:\P5SDK\Run\XYZDemoD.exe | 10-18-2002 | 12:18:12 | 1.0.0.1 | 114742 | cca621e3
+File Copy: C:\P5SDK\Run\XYZDemoD.ilk | 10-18-2002 | 12:18:12 | | 207588 | adc2b1ff
+File Copy: C:\P5SDK\Run\YPRModeTest.exe | 05-10-2002 | 17:48:24 | | 331776 | c3a96ef0
+File Copy: C:\P5SDK\Run\YPRModeTestD.exe | 10-18-2002 | 12:09:38 | | 1458242 | 89562027
+File Copy: C:\P5SDK\Run\YPRModeTestD.ilk | 10-18-2002 | 12:09:38 | | 2009032 | 32cc7edf
+Made Dir: C:\P5SDK\XYZDemo
+Made Dir: C:\P5SDK\XYZDemo\Debug
+File Copy: C:\P5SDK\XYZDemo\Debug\P5Motion.obj | 10-18-2002 | 12:18:12 | | 18814 | 80e827be
+File Copy: C:\P5SDK\XYZDemo\Debug\StdAfx.obj | 10-18-2002 | 12:18:12 | | 105980 | 88816e5c
+File Copy: C:\P5SDK\XYZDemo\Debug\vc60.idb | 10-18-2002 | 12:18:14 | | 205824 | f7869e3c
+File Copy: C:\P5SDK\XYZDemo\Debug\vc60.pdb | 10-18-2002 | 12:18:12 | | 364544 | 4e601c4f
+File Copy: C:\P5SDK\XYZDemo\Debug\XYZDemo.obj | 10-18-2002 | 12:18:12 | | 14104 | 52419e27
+File Copy: C:\P5SDK\XYZDemo\Debug\XYZDemo.pch | 10-18-2002 | 12:18:12 | | 5519072 | 8d2a0645
+File Copy: C:\P5SDK\XYZDemo\Debug\XYZDemo.res | 10-18-2002 | 12:18:10 | | 2896 | ca6b38eb
+File Copy: C:\P5SDK\XYZDemo\Debug\XYZDemoD.pdb | 10-18-2002 | 12:18:12 | | 287744 | ab78b6da
+File Copy: C:\P5SDK\XYZDemo\Debug\XYZDemoDlg.obj | 10-18-2002 | 12:18:12 | | 32917 | f7888f
+File Copy: C:\P5SDK\XYZDemo\ReadMe.txt | 05-09-2002 | 09:50:18 | | 3597 | 6b67a5ed
+Made Dir: C:\P5SDK\XYZDemo\res
+File Copy: C:\P5SDK\XYZDemo\res\XYZDemo.ico | 05-09-2002 | 09:50:20 | | 1078 | 120de4e4
+File Copy: C:\P5SDK\XYZDemo\res\XYZDemo.rc2 | 05-09-2002 | 09:50:20 | | 399 | b5e82c97
+File Copy: C:\P5SDK\XYZDemo\resource.h | 05-09-2002 | 11:18:00 | | 731 | 8e9872c9
+File Copy: C:\P5SDK\XYZDemo\StdAfx.cpp | 05-09-2002 | 09:50:20 | | 209 | 2826a7b2
+File Copy: C:\P5SDK\XYZDemo\StdAfx.h | 05-09-2002 | 09:50:20 | | 1054 | f1598a06
+File Copy: C:\P5SDK\XYZDemo\XYZDemo.aps | 05-09-2002 | 11:21:18 | | 35832 | 17fb8d4b
+File Copy: C:\P5SDK\XYZDemo\XYZDemo.clw | 05-09-2002 | 11:32:26 | | 1169 | bf107243
+File Copy: C:\P5SDK\XYZDemo\XYZDemo.cpp | 05-09-2002 | 09:50:20 | | 2077 | 938b955b
+File Copy: C:\P5SDK\XYZDemo\XYZDemo.dsp | 05-09-2002 | 11:26:50 | | 4578 | 7ae385e6
+File Copy: C:\P5SDK\XYZDemo\XYZDemo.dsw | 05-09-2002 | 11:33:14 | | 620 | e9ce9a5e
+File Copy: C:\P5SDK\XYZDemo\XYZDemo.h | 05-09-2002 | 09:50:18 | | 1335 | b142bdd9
+File Copy: C:\P5SDK\XYZDemo\XYZDemo.ncb | 05-09-2002 | 11:33:14 | | 66560 | 4b697172
+File Copy: C:\P5SDK\XYZDemo\XYZDemo.opt | 05-09-2002 | 11:33:12 | | 53760 | 5dda799a
+File Copy: C:\P5SDK\XYZDemo\XYZDemo.plg | 05-09-2002 | 11:33:10 | | 2373 | b9c68875
+File Copy: C:\P5SDK\XYZDemo\XYZDemo.rc | 05-09-2002 | 11:21:18 | | 5435 | 8a845dca
+File Copy: C:\P5SDK\XYZDemo\XYZDemoDlg.cpp | 05-09-2002 | 11:33:00 | | 6571 | 76bc8d19
+File Copy: C:\P5SDK\XYZDemo\XYZDemoDlg.h | 05-09-2002 | 11:32:26 | | 1519 | 1c27ed07
+Made Dir: C:\P5SDK\YPRModeTest
+File Copy: C:\P5SDK\YPRModeTest\d3dapp.cpp | 05-09-2002 | 10:41:34 | | 74473 | c57a6049
+File Copy: C:\P5SDK\YPRModeTest\d3dapp.h | 05-07-2002 | 16:25:06 | | 9013 | 256de5a8
+File Copy: C:\P5SDK\YPRModeTest\d3dfile.cpp | 05-07-2002 | 16:25:06 | | 24134 | 128f7cf2
+File Copy: C:\P5SDK\YPRModeTest\d3dfile.h | 05-07-2002 | 16:25:06 | | 4268 | b88aebd3
+File Copy: C:\P5SDK\YPRModeTest\d3dres.h | 05-07-2002 | 16:25:06 | | 1437 | 513aba59
+File Copy: C:\P5SDK\YPRModeTest\d3dutil.cpp | 05-07-2002 | 16:25:06 | | 23208 | a6af6b55
+File Copy: C:\P5SDK\YPRModeTest\d3dutil.h | 05-07-2002 | 16:25:06 | | 10643 | 628c216e
+Made Dir: C:\P5SDK\YPRModeTest\Debug
+File Copy: C:\P5SDK\YPRModeTest\Debug\d3dapp.obj | 10-18-2002 | 12:09:38 | | 71779 | a62f0789
+File Copy: C:\P5SDK\YPRModeTest\Debug\d3dfile.obj | 10-18-2002 | 12:09:38 | | 38638 | f0d3e745
+File Copy: C:\P5SDK\YPRModeTest\Debug\d3dutil.obj | 10-18-2002 | 12:09:38 | | 36659 | 7b4bc8a6
+File Copy: C:\P5SDK\YPRModeTest\Debug\dxutil.obj | 10-18-2002 | 12:09:38 | | 30250 | f6e4b7ea
+File Copy: C:\P5SDK\YPRModeTest\Debug\P5Bend.obj | 10-18-2002 | 12:09:38 | | 5339 | c6b1c6d6
+File Copy: C:\P5SDK\YPRModeTest\Debug\P5Motion.obj | 10-18-2002 | 12:09:38 | | 18548 | 523cbaba
+File Copy: C:\P5SDK\YPRModeTest\Debug\RoundSliderCtrl.obj | 10-18-2002 | 12:09:38 | | 73920 | 78d6c896
+File Copy: C:\P5SDK\YPRModeTest\Debug\StdAfx.obj | 10-18-2002 | 12:09:36 | | 112950 | a4acd0f7
+File Copy: C:\P5SDK\YPRModeTest\Debug\vc60.idb | 10-18-2002 | 12:09:40 | | 287744 | a9f0f79f
+File Copy: C:\P5SDK\YPRModeTest\Debug\vc60.pdb | 10-18-2002 | 12:09:38 | | 372736 | 766bde58
+File Copy: C:\P5SDK\YPRModeTest\Debug\YPRModeTest.obj | 10-18-2002 | 12:09:38 | | 91745 | 86a04b46
+File Copy: C:\P5SDK\YPRModeTest\Debug\YPRModeTest.pch | 10-18-2002 | 12:09:36 | | 5402000 | 17901663
+File Copy: C:\P5SDK\YPRModeTest\Debug\YPRModeTest.res | 10-18-2002 | 12:09:36 | | 4064 | fdf1f8c2
+File Copy: C:\P5SDK\YPRModeTest\Debug\YPRModeTestD.pdb | 10-18-2002 | 12:09:38 | | 1500160 | 79c187b3
+File Copy: C:\P5SDK\YPRModeTest\DirectX.ico | 05-07-2002 | 16:25:06 | | 1078 | 9621ef1a
+File Copy: C:\P5SDK\YPRModeTest\dxutil.cpp | 05-07-2002 | 16:25:06 | | 23610 | 8694a2e7
+File Copy: C:\P5SDK\YPRModeTest\dxutil.h | 05-07-2002 | 16:25:06 | | 5072 | c711c861
+File Copy: C:\P5SDK\YPRModeTest\MemDC.h | 10-26-1998 | 10:36:10 | | 2099 | 224d16cb
+Made Dir: C:\P5SDK\YPRModeTest\Release
+File Copy: C:\P5SDK\YPRModeTest\Release\StdAfx.obj | 10-18-2002 | 11:09:20 | | 608 | 1449f10f
+File Copy: C:\P5SDK\YPRModeTest\Release\vc60.idb | 10-18-2002 | 11:09:22 | | 58368 | 53bb57bb
+File Copy: C:\P5SDK\YPRModeTest\Release\YPRModeTest.pch | 10-18-2002 | 11:09:20 | | 5503600 | 8326f3f2
+File Copy: C:\P5SDK\YPRModeTest\Release\YPRModeTest.res | 10-18-2002 | 11:09:14 | | 3792 | ff6a02ff
+File Copy: C:\P5SDK\YPRModeTest\resource.h | 05-10-2002 | 16:58:48 | | 3577 | b1735ef6
+File Copy: C:\P5SDK\YPRModeTest\RoundSliderCtrl.cpp | 05-08-2002 | 21:38:48 | | 17995 | 7f1b3fcc
+File Copy: C:\P5SDK\YPRModeTest\RoundSliderCtrl.h | 12-11-2001 | 22:08:14 | | 3049 | a1d0c410
+File Copy: C:\P5SDK\YPRModeTest\StdAfx.cpp | 05-07-2002 | 16:25:06 | | 209 | a5df4357
+File Copy: C:\P5SDK\YPRModeTest\StdAfx.h | 05-09-2002 | 10:34:16 | | 1199 | d74a21a5
+File Copy: C:\P5SDK\YPRModeTest\YPRModeTest.aps | 05-10-2002 | 17:14:48 | | 40092 | 7d5220fe
+File Copy: C:\P5SDK\YPRModeTest\YPRModeTest.clw | 05-10-2002 | 17:48:36 | | 3015 | e5f23c81
+File Copy: C:\P5SDK\YPRModeTest\YPRModeTest.cpp | 05-10-2002 | 17:48:22 | | 28873 | 48eb6dff
+File Copy: C:\P5SDK\YPRModeTest\YPRModeTest.dsp | 05-09-2002 | 11:29:26 | | 5593 | fac5fc2d
+File Copy: C:\P5SDK\YPRModeTest\YPRModeTest.dsw | 05-09-2002 | 10:51:16 | | 713 | 3ee73425
+File Copy: C:\P5SDK\YPRModeTest\YPRModeTest.h | 05-10-2002 | 17:16:26 | | 6388 | 5266347d
+File Copy: C:\P5SDK\YPRModeTest\YPRModeTest.ncb | 05-10-2002 | 17:48:38 | | 164864 | faaa6fb5
+File Copy: C:\P5SDK\YPRModeTest\YPRModeTest.opt | 05-10-2002 | 17:48:38 | | 58880 | 97d7ccd7
+File Copy: C:\P5SDK\YPRModeTest\YPRModeTest.plg | 05-10-2002 | 17:48:36 | | 1542 | 237acfae
+File Copy: C:\P5SDK\YPRModeTest\YPRModeTest.rc | 05-10-2002 | 17:14:48 | | 6883 | 9e026329
+Shell Link: C:\Users\Toms\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\P5 SDK 2.0\P5 SDK Help\P5_SDK_2_0.lnk
+Link Info: C:\P5SDK\Docs\P5_SDK_2_0.chm |  |  | 0 | 1 | 0 | 
+Shell Link: C:\Users\Toms\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\P5 SDK 2.0\Visual C++ Samples\Airlock.lnk
+Link Info: C:\P5SDK\Run\cage2.exe |  |  | 0 | 1 | 0 | 
+Shell Link: C:\Users\Toms\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\P5 SDK 2.0\Visual C++ Samples\Hand.lnk
+Link Info: C:\P5SDK\Run\Hand.exe |  |  | 0 | 1 | 0 | 
+Shell Link: C:\Users\Toms\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\P5 SDK 2.0\Visual C++ Samples\Knight.lnk
+Link Info: C:\P5SDK\Run\Knight.exe |  |  | 0 | 1 | 0 | 
+Shell Link: C:\Users\Toms\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\P5 SDK 2.0\Visual C++ Samples\P5 Bend.lnk
+Link Info: C:\P5SDK\Run\P5BendDemo.exe |  |  | 0 | 1 | 0 | 
+Shell Link: C:\Users\Toms\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\P5 SDK 2.0\Visual C++ Samples\P5 Mouse.lnk
+Link Info: C:\P5SDK\Run\P5MouseUtil.exe |  |  | 0 | 1 | 0 | 
+Shell Link: C:\Users\Toms\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\P5 SDK 2.0\Visual C++ Samples\P5 XYZ.lnk
+Link Info: C:\P5SDK\Run\XYZDemo.exe |  |  | 0 | 1 | 0 | 
+Shell Link: C:\Users\Toms\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\P5 SDK 2.0\Visual C++ Samples\P5 YPR.lnk
+Link Info: C:\P5SDK\Run\YPRModeTest.exe |  |  | 0 | 1 | 0 | 
+Could not Self-Register: C:\P5SDK\Run\P5DLL.dll
+User Rights: Admin

@@ -1,0 +1,50 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: YPRModeTest - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+YPRModeTest.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: YPRModeTest - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Autukuri\LOCALS~1\Temp\RSPCD.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Debug/YPRModeTest.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\SDK 2_0\YPRModeTest\YPRModeTest.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Autukuri\LOCALS~1\Temp\RSPCD.tmp" 
+Creating temporary file "C:\DOCUME~1\Autukuri\LOCALS~1\Temp\RSPCE.tmp" with contents
+[
+dsound.lib dinput8.lib dxerr8.lib d3dx8dt.lib d3d8.lib d3dxof.lib dxguid.lib winmm.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/YPRModeTestD.pdb" /debug /machine:I386 /out:"..\Run\YPRModeTestD.exe" /pdbtype:sept 
+".\Debug\d3dapp.obj"
+".\Debug\d3dfile.obj"
+".\Debug\d3dutil.obj"
+".\Debug\dxutil.obj"
+".\Debug\P5Motion.obj"
+".\Debug\RoundSliderCtrl.obj"
+".\Debug\StdAfx.obj"
+".\Debug\YPRModeTest.obj"
+".\Debug\YPRModeTest.res"
+"..\P5API\P5DLL.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\Autukuri\LOCALS~1\Temp\RSPCE.tmp"
+<h3>Output Window</h3>
+Compiling...
+YPRModeTest.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+YPRModeTestD.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

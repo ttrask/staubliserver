@@ -7,13 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockTCPClient", "MockTCPCli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPServer", "StaubliTCP\TCPServer.csproj", "{7D31AC42-8CF7-4F3D-928F-97FACEDA2A4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPClientUI", "TCPClientUI\TCPClientUI.csproj", "{6BA8A353-D4AC-4553-A8E6-D013FDB7D639}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPServerUI", "TCPServerUI\TCPServerUI.csproj", "{67ED321A-F036-4258-A7A0-C8B4B8C5B8B1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPClient", "TCPClient\TCPClient.csproj", "{69BF4DF5-0574-4817-9C66-860F1826EA01}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "P5DLL", "P5DLL\P5DLL.vcxproj", "{6F8B924E-C9B9-4CBC-B83A-E618872A6192}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaulbliFrontend", "TCPClientUI\StaulbliFrontend.csproj", "{6BA8A353-D4AC-4553-A8E6-D013FDB7D639}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,18 +63,6 @@ Global
 		{7D31AC42-8CF7-4F3D-928F-97FACEDA2A4B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{7D31AC42-8CF7-4F3D-928F-97FACEDA2A4B}.Release|Win32.ActiveCfg = Release|Any CPU
 		{7D31AC42-8CF7-4F3D-928F-97FACEDA2A4B}.Release|x86.ActiveCfg = Release|Any CPU
-		{6BA8A353-D4AC-4553-A8E6-D013FDB7D639}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{6BA8A353-D4AC-4553-A8E6-D013FDB7D639}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{6BA8A353-D4AC-4553-A8E6-D013FDB7D639}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{6BA8A353-D4AC-4553-A8E6-D013FDB7D639}.Debug|Win32.ActiveCfg = Debug|x86
-		{6BA8A353-D4AC-4553-A8E6-D013FDB7D639}.Debug|x86.ActiveCfg = Debug|x86
-		{6BA8A353-D4AC-4553-A8E6-D013FDB7D639}.Debug|x86.Build.0 = Debug|x86
-		{6BA8A353-D4AC-4553-A8E6-D013FDB7D639}.Release|Any CPU.ActiveCfg = Release|x86
-		{6BA8A353-D4AC-4553-A8E6-D013FDB7D639}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{6BA8A353-D4AC-4553-A8E6-D013FDB7D639}.Release|Mixed Platforms.Build.0 = Release|x86
-		{6BA8A353-D4AC-4553-A8E6-D013FDB7D639}.Release|Win32.ActiveCfg = Release|x86
-		{6BA8A353-D4AC-4553-A8E6-D013FDB7D639}.Release|x86.ActiveCfg = Release|x86
-		{6BA8A353-D4AC-4553-A8E6-D013FDB7D639}.Release|x86.Build.0 = Release|x86
 		{67ED321A-F036-4258-A7A0-C8B4B8C5B8B1}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{67ED321A-F036-4258-A7A0-C8B4B8C5B8B1}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
 		{67ED321A-F036-4258-A7A0-C8B4B8C5B8B1}.Debug|Mixed Platforms.Build.0 = Debug|x86
@@ -111,6 +99,18 @@ Global
 		{6F8B924E-C9B9-4CBC-B83A-E618872A6192}.Release|Win32.ActiveCfg = Release|Win32
 		{6F8B924E-C9B9-4CBC-B83A-E618872A6192}.Release|Win32.Build.0 = Release|Win32
 		{6F8B924E-C9B9-4CBC-B83A-E618872A6192}.Release|x86.ActiveCfg = Release|Win32
+		{6BA8A353-D4AC-4553-A8E6-D013FDB7D639}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{6BA8A353-D4AC-4553-A8E6-D013FDB7D639}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{6BA8A353-D4AC-4553-A8E6-D013FDB7D639}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{6BA8A353-D4AC-4553-A8E6-D013FDB7D639}.Debug|Win32.ActiveCfg = Debug|x86
+		{6BA8A353-D4AC-4553-A8E6-D013FDB7D639}.Debug|x86.ActiveCfg = Debug|x86
+		{6BA8A353-D4AC-4553-A8E6-D013FDB7D639}.Debug|x86.Build.0 = Debug|x86
+		{6BA8A353-D4AC-4553-A8E6-D013FDB7D639}.Release|Any CPU.ActiveCfg = Release|x86
+		{6BA8A353-D4AC-4553-A8E6-D013FDB7D639}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{6BA8A353-D4AC-4553-A8E6-D013FDB7D639}.Release|Mixed Platforms.Build.0 = Release|x86
+		{6BA8A353-D4AC-4553-A8E6-D013FDB7D639}.Release|Win32.ActiveCfg = Release|x86
+		{6BA8A353-D4AC-4553-A8E6-D013FDB7D639}.Release|x86.ActiveCfg = Release|x86
+		{6BA8A353-D4AC-4553-A8E6-D013FDB7D639}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
