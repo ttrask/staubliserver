@@ -317,9 +317,13 @@ namespace TCPClientUI
         /// <param name="client"></param>
         private static void HandleServerComm(object client)
         {
+            
             TcpClient tcpClient = (TcpClient)client;
             //NetworkStream serverStream = tcpClient.GetStream();
             serverStream = tcpClient.GetStream();
+
+
+            
 
             byte[] message = new byte[4096];
             int bytesRead;
