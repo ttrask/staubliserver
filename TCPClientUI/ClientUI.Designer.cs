@@ -63,10 +63,17 @@
             this.label5 = new System.Windows.Forms.Label();
             this.lblClientIP = new System.Windows.Forms.Label();
             this.grpMotion = new System.Windows.Forms.GroupBox();
+            this.ButtonLabel = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnResetP5 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.grpStatus = new System.Windows.Forms.GroupBox();
-            this.lblTCPString = new System.Windows.Forms.Label();
+            this.txtMEssageSentToServer = new System.Windows.Forms.TextBox();
             this.txtTCPString = new System.Windows.Forms.Label();
+            this.lblTCPString = new System.Windows.Forms.Label();
+            this.p5ConnectTimer = new System.Windows.Forms.Timer(this.components);
+            this.puckConnectTimer = new System.Windows.Forms.Timer(this.components);
+            this.puckTimer = new System.Windows.Forms.Timer(this.components);
             this.groupBox1.SuspendLayout();
             this.grpServerMessages.SuspendLayout();
             this.grpClient.SuspendLayout();
@@ -210,8 +217,7 @@
             // 
             // p5Timer
             // 
-            this.p5Timer.Enabled = true;
-            this.p5Timer.Interval = 15;
+            this.p5Timer.Interval = 16;
             this.p5Timer.Tick += new System.EventHandler(this.p5Timer_Tick);
             // 
             // groupBox1
@@ -280,7 +286,6 @@
             this.txtServerMessage.BackColor = System.Drawing.SystemColors.Window;
             this.txtServerMessage.CausesValidation = false;
             this.txtServerMessage.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.txtServerMessage.Enabled = false;
             this.txtServerMessage.Location = new System.Drawing.Point(6, 20);
             this.txtServerMessage.Multiline = true;
             this.txtServerMessage.Name = "txtServerMessage";
@@ -407,7 +412,6 @@
             this.txtClientMessage.BackColor = System.Drawing.SystemColors.Window;
             this.txtClientMessage.CausesValidation = false;
             this.txtClientMessage.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.txtClientMessage.Enabled = false;
             this.txtClientMessage.Location = new System.Drawing.Point(6, 26);
             this.txtClientMessage.Multiline = true;
             this.txtClientMessage.Name = "txtClientMessage";
@@ -439,6 +443,9 @@
             this.grpMotion.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.grpMotion.BackColor = System.Drawing.SystemColors.Control;
+            this.grpMotion.Controls.Add(this.ButtonLabel);
+            this.grpMotion.Controls.Add(this.label1);
+            this.grpMotion.Controls.Add(this.btnResetP5);
             this.grpMotion.Controls.Add(this.groupBox2);
             this.grpMotion.Controls.Add(this.txtP5Connect);
             this.grpMotion.Controls.Add(this.label7);
@@ -454,6 +461,34 @@
             this.grpMotion.TabIndex = 27;
             this.grpMotion.TabStop = false;
             this.grpMotion.Text = "Motion Control";
+            // 
+            // ButtonLabel
+            // 
+            this.ButtonLabel.AutoSize = true;
+            this.ButtonLabel.Location = new System.Drawing.Point(57, 106);
+            this.ButtonLabel.Name = "ButtonLabel";
+            this.ButtonLabel.Size = new System.Drawing.Size(0, 14);
+            this.ButtonLabel.TabIndex = 28;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(16, 106);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(27, 14);
+            this.label1.TabIndex = 27;
+            this.label1.Text = "Grip";
+            // 
+            // btnResetP5
+            // 
+            this.btnResetP5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnResetP5.Location = new System.Drawing.Point(173, 62);
+            this.btnResetP5.Name = "btnResetP5";
+            this.btnResetP5.Size = new System.Drawing.Size(215, 31);
+            this.btnResetP5.TabIndex = 26;
+            this.btnResetP5.Text = "Reset P5";
+            this.btnResetP5.UseVisualStyleBackColor = true;
+            this.btnResetP5.Click += new System.EventHandler(this.btnResetP5_Click);
             // 
             // groupBox2
             // 
@@ -473,6 +508,7 @@
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.grpStatus.BackColor = System.Drawing.SystemColors.Control;
+            this.grpStatus.Controls.Add(this.txtMEssageSentToServer);
             this.grpStatus.Controls.Add(this.txtTCPString);
             this.grpStatus.Controls.Add(this.lblTCPString);
             this.grpStatus.Location = new System.Drawing.Point(445, 249);
@@ -481,6 +517,27 @@
             this.grpStatus.TabIndex = 28;
             this.grpStatus.TabStop = false;
             this.grpStatus.Text = "Status";
+            // 
+            // txtMEssageSentToServer
+            // 
+            this.txtMEssageSentToServer.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtMEssageSentToServer.BackColor = System.Drawing.SystemColors.Window;
+            this.txtMEssageSentToServer.Location = new System.Drawing.Point(12, 60);
+            this.txtMEssageSentToServer.Multiline = true;
+            this.txtMEssageSentToServer.Name = "txtMEssageSentToServer";
+            this.txtMEssageSentToServer.ReadOnly = true;
+            this.txtMEssageSentToServer.Size = new System.Drawing.Size(376, 157);
+            this.txtMEssageSentToServer.TabIndex = 22;
+            // 
+            // txtTCPString
+            // 
+            this.txtTCPString.AutoSize = true;
+            this.txtTCPString.Location = new System.Drawing.Point(19, 60);
+            this.txtTCPString.Name = "txtTCPString";
+            this.txtTCPString.Size = new System.Drawing.Size(0, 14);
+            this.txtTCPString.TabIndex = 1;
             // 
             // lblTCPString
             // 
@@ -491,13 +548,20 @@
             this.lblTCPString.TabIndex = 0;
             this.lblTCPString.Text = "String being sent to server";
             // 
-            // txtTCPString
+            // p5ConnectTimer
             // 
-            this.txtTCPString.AutoSize = true;
-            this.txtTCPString.Location = new System.Drawing.Point(19, 60);
-            this.txtTCPString.Name = "txtTCPString";
-            this.txtTCPString.Size = new System.Drawing.Size(0, 14);
-            this.txtTCPString.TabIndex = 1;
+            this.p5ConnectTimer.Enabled = true;
+            this.p5ConnectTimer.Interval = 1000;
+            this.p5ConnectTimer.Tick += new System.EventHandler(this.p5ConnectTimer_Tick);
+            // 
+            // puckConnectTimer
+            // 
+            this.puckConnectTimer.Enabled = true;
+            this.puckConnectTimer.Interval = 1000;
+            // 
+            // puckTimer
+            // 
+            this.puckTimer.Interval = 16;
             // 
             // ClientForm
             // 
@@ -514,6 +578,7 @@
             this.Name = "ClientForm";
             this.Text = "TCP Client";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ClientForm_FormClosing);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.ClientForm_FormClosed);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -573,6 +638,13 @@
         private System.Windows.Forms.Label lblServerPort;
         private System.Windows.Forms.Label txtTCPString;
         private System.Windows.Forms.Label lblTCPString;
+        private System.Windows.Forms.Timer p5ConnectTimer;
+        private System.Windows.Forms.Button btnResetP5;
+        private System.Windows.Forms.TextBox txtMEssageSentToServer;
+        private System.Windows.Forms.Timer puckConnectTimer;
+        private System.Windows.Forms.Timer puckTimer;
+        private System.Windows.Forms.Label ButtonLabel;
+        private System.Windows.Forms.Label label1;
 
     }
 }
