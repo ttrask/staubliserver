@@ -1,0 +1,1 @@
+For Dr. Cox's EML4210 class, we're developing a RTI to interface a non-standard HCI with the Staubli TX40 robotic arm via the CS8 black box and the VAL3 programming language.
